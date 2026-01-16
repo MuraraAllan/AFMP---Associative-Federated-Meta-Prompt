@@ -7,6 +7,10 @@ Prompting is not treated as the key to intelligence, nor as a substitute for tra
 
 This repository formalizes that perspective.
 
+![prompt](https://github.com/user-attachments/assets/c60b6570-229b-4745-b167-6e0c090be3c5)
+<img width="1080" height="1820" alt="funny_agent" src="https://github.com/user-attachments/assets/ccb44aa7-e853-43b7-b13a-ab9b4f769fc5" />
+
+
 ---
 
 ## Core Position
