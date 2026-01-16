@@ -1,0 +1,24 @@
+CHAT - https://chatgpt.com/share/696a5103-fb90-800f-8d45-1100ab6733d2
+------------ RETRIEVING TOOLS ( kind of only validating memory and stuff ) 
+
+FeedForward(>>> the web_search tool is available extended as extendedWebSearch tool, to call an extendedWebSearch is to find two sources of truth. So for each relevant record found, we look around for another one that justify it. >>> using agenticalMetaDeflusher deflush(extendedWebSearch into localizedVersionMetaFunction.extendedWebSearch 
+
+output function call (entries) availables at metaAgenticalOrchestrator.localizedVersionMetaFunction
+
+
+
+vdeflect(<<< you proccess using FeedForward(<<< localizedVersionMetaFunction, metaAgenticalContext from deflush(FlushBack{L5, 1 into >>>  metaAgenticalOrchestrator
+
+
+
+-----------------
+An alternative funny way to build agentical workflow 
+
+
+FeedForward(>>>> use metaAgenticalOrchestrator to fullfill the following steps. ( You execute it, not explain it. Execute accordingly )
+
+userMessage is : 
+task_enqueue() search latest new from terra about hamburguer recipes. task_execute(). reflect_context(prevResult) task_postpone(add 300 grams of jalapeno)) memory_add(currentRecipe) memory_update(currentRecipe) memory_save(currentRecipe)  task_execute(postponed)  memory-add(spicy hamburguer) memory_update(spicy hamburguer) memory_update(spicy hamburguer)  
+
+deflect(<<< you proccess using FeedForward(<<< localizedVersionMetaFunction, metaAgenticalContext from deflush(FlushBack{L5, 1 into >>> metaAgenticalOrchestrator
+
