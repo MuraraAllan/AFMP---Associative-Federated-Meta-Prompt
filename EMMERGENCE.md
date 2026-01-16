@@ -20,5 +20,5 @@ FlushForward(<<<< Before deflect(<<< you reflect(<<< deflush(AgentMessagerules t
 
 notes :
 ### Self-criticize and output into deflush into afterSelfReflectComparison has been yielded 2 times, ~50 and ~30 turns above. 
-### Everything else was the solelly decision of the model to execute this step.
+### Everything else was yielded from the result, based on the iteration of the model during the turn.
 ### No memory traces of specialized or suggested execution of afterSelfReflectComparison in the prompt.
