@@ -1,6 +1,11 @@
 # Prompting as Constrained Adaptation in Agentical Systems
 
 ## Overview
+<img width="439" height="791" alt="Screenshot from 2026-01-24 14-50-53" src="https://github.com/user-attachments/assets/19788e9b-e147-4861-b7f5-e54c81ef0160" />
+
+Chat share : https://chatgpt.com/share/696a5103-fb90-800f-8d45-1100ab6733d2
+
+
 
 Over the last two years, this work has focused on prompt engineering as an operational interface to large language models, while progressively expanding toward meta-agents and action models.  
 Prompting is not treated as the key to intelligence, nor as a substitute for training, optimization, or classical machine learning. Instead, it is treated as a high-leverage control surface: a logical gate that modulates how models interact with their attention mechanisms at inference time.
