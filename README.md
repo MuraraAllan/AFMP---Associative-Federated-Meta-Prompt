@@ -1,4 +1,8 @@
+##Associative-Federated-Meta-Prompt
+
+
 # Prompting as Constrained Adaptation in Agentical Systems
+
 
 ## Overview
 <img width="439" height="791" alt="Screenshot from 2026-01-24 14-50-53" src="https://github.com/user-attachments/assets/19788e9b-e147-4861-b7f5-e54c81ef0160" />
