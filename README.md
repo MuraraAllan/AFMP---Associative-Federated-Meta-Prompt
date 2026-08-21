@@ -1,4 +1,10 @@
 ##Associative-Federated-Meta-Prompt
+Articles that help composing this research :
+
+From Rank-1 Operators to Context Topology: The Geometric Mechanics of Attention, Position, and Superposition in ML
+Temporality & Atemporality - Causal Masking, Signaling, Transiency and other inductive emmerging principles
+https://github.com/MuraraAllan/Articles---Rank1-Operators-and-Topology-Temporality-Atemporality-in-LLMS
+
 
 
 # Prompting as Constrained Adaptation in Agentical Systems
