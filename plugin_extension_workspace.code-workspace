@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "chat.subagents.allowInvocationsFromSubagents": true,
+    "remote.autoForwardPorts": false,
+    "remote.forwardOnOpen": false,
+    "telemetry.feedback.enabled": false,
+    "telemetry.editStats.enabled": false,
+    "remote.restoreForwardedPorts": false,
+    "chat.tools.terminal.enableAutoApprove": false,
+    "chat.tools.terminal.autoApproveWorkspaceNpmScripts": false,
+    "chat.agent.sandbox.allowAutoApprove": false,
+    "chat.agent.sandbox.allowUnsandboxedCommands": false,
+    "github.copilot.chat.agentDebugLog.fileLogging.enabled": true,
+    "chat.editor.localAgent.enabled": false,
+    "chat.editor.preferCopilotHarness": false,
+  },
+}

@@ -1,0 +1,1529 @@
+n the context of Marchenko-Pastur (MP) theory, studying large low-rank perturbations helps us understand how eigenvalues of a random matrix deviate from the bulk distribution and form spikes. When we model a matrix WW as a sum of a random matrix WrandWrand​ and a large rank-1 perturbation ΔlargeΔlarge​, such that:
+W=Wrand+Δlarge,W=Wrand​+Δlarge​,
+the maximum eigenvalue λmaxλmax​ can extend beyond the theoretical MP bulk edge λ+λ+​. Specifically, if ΔΔ is a large rank-1 perturbation with magnitude ∣Δ∣∣Δ∣, the maximum eigenvalue λmaxλmax​ that "bleeds out" is given by:
+λmax=σ2(1Q+∣Δ∣2N)(1+N∣Δ∣2),λmax​=σ2(Q1​+N∣Δ∣2​)(1+∣Δ∣2N​),
+-----------
+
+
+The Marchenko-Pastur (MP) theory is a fundamental result in random matrix theory that describes the asymptotic behavior of the eigenvalue distribution of large random covariance matrices. Specifically, it characterizes the spectrum of sample covariance matrices when the underlying data is high-dimensional and exhibits random variation.
+
+When we introduce a low-rank perturbation to a random matrix, particularly a large rank-1 perturbation, the effect on the eigenvalue distribution can be significant. This perturbation can cause some eigenvalues to deviate from the bulk of the MP distribution, forming what are known as "spikes." Understanding how these spikes occur and determining their locations are essential in various applications, such as principal component analysis (PCA), signal processing, and statistics.
+
+In your scenario, you have a matrix ( W ) modeled as:
+
+W
+=
+W
+rand
++
+Δ
+large
+,
+W=W 
+rand
+​
+ +Δ 
+large
+​
+ ,
+where ( W_{\text{rand}} ) is a random matrix following the assumptions of the MP theory (e.g., a Wishart matrix), and ( \Delta_{\text{large}} ) is a large rank-1 perturbation of magnitude ( |\Delta| ).
+
+The maximum eigenvalue ( \lambda_{\text{max}} ) of ( W ) can indeed extend beyond the theoretical MP bulk edge ( \lambda_+ ). This phenomenon occurs due to the influence of the large rank-1 perturbation. The expression you provided for ( \lambda_{\text{max}} ) is:
+
+λ
+max
+=
+σ
+2
+(
+1
+Q
++
+∣
+Δ
+∣
+2
+N
+)
+(
+1
++
+N
+∣
+Δ
+∣
+2
+)
+,
+λ 
+max
+​
+ =σ 
+2
+ ( 
+Q
+1
+​
+ + 
+N
+∣Δ∣ 
+2
+ 
+​
+ )(1+ 
+∣Δ∣ 
+2
+ 
+N
+​
+ ),
+where:
+
+( \sigma^2 ) is the variance of the elements in ( W_{\text{rand}} ),
+( Q = N / T ) is the aspect ratio of the matrix (number of variables ( N ) over the number of observations ( T )),
+( |\Delta|^2 ) represents the magnitude squared of the rank-1 perturbation.
+Explanation and Derivation of the Expression for ( \lambda_{\text{max}} ):
+
+To understand where this expression comes from, let's delve into the behavior of eigenvalues under a rank-1 perturbation.
+
+1. The Marchenko-Pastur Distribution:
+
+The MP distribution describes the asymptotic distribution of eigenvalues ( \lambda ) of sample covariance matrices ( S = \frac{1}{T} X X^\top ), where ( X ) is an ( N \times T ) random matrix with independent and identically distributed (i.i.d.) entries having mean zero and variance ( \sigma^2 ).
+
+For large ( N ) and ( T ) with ( Q = N / T ) fixed, the eigenvalues of ( S ) almost surely converge to the MP distribution, which has support on:
+
+λ
+∈
+[
+λ
+−
+,
+λ
++
+]
+,
+λ∈[λ 
+−
+​
+ ,λ 
++
+​
+ ],
+where
+
+λ
+−
+=
+σ
+2
+(
+1
+−
+Q
+)
+2
+,
+λ
++
+=
+σ
+2
+(
+1
++
+Q
+)
+2
+.
+λ 
+−
+​
+ =σ 
+2
+ (1− 
+Q
+​
+ ) 
+2
+ ,λ 
++
+​
+ =σ 
+2
+ (1+ 
+Q
+​
+ ) 
+2
+ .
+2. Effect of a Rank-1 Perturbation:
+
+When a rank-1 perturbation ( \Delta_{\text{large}} ) is added to ( W_{\text{rand}} ), it effectively adds a single large eigenvalue to the spectrum of ( W ).
+
+Suppose ( \Delta_{\text{large}} = \delta u u^\top ), where ( u ) is a unit-norm vector and ( \delta ) is a scalar representing the strength of the perturbation. Then, the perturbation contributes an eigenvalue ( \delta ) to the spectrum.
+
+3. Spiked Covariance Model:
+
+In the spiked covariance model, the population covariance matrix ( \Sigma ) has one or more "spikes," which are eigenvalues that are larger than the bulk eigenvalues described by the MP distribution.
+
+Given that ( W ) now has a population covariance ( \Sigma = \sigma^2 I_N + \delta u u^\top ), the sample covariance matrix ( S ) will have eigenvalues influenced by both the random component and the spike.
+
+4. Determining ( \lambda_{\text{max}} ):
+
+The behavior of the largest sample eigenvalue ( \lambda_{\text{max}} ) in the presence of a spike can be derived using results from random matrix theory.
+
+For a rank-1 spike of strength ( \delta ), the sample eigenvalue ( \lambda_{\text{max}} ) will "separate" from the bulk MP distribution if ( \delta ) exceeds a certain critical value.
+
+The critical value ( \delta_{\text{crit}} ) is given by:
+
+δ
+crit
+=
+σ
+2
+Q
+.
+δ 
+crit
+​
+ =σ 
+2
+  
+Q
+​
+ .
+If ( \delta > \delta_{\text{crit}} ), the spike is detectable, and ( \lambda_{\text{max}} ) separates from the bulk; otherwise, it remains buried within the MP distribution.
+
+5. Expression for ( \lambda_{\text{max}} ):
+
+The exact expression for ( \lambda_{\text{max}} ) when ( \delta > \delta_{\text{crit}} ) can be derived using the following relationship from the spiked model theory:
+
+λ
+max
+=
+σ
+2
+(
+1
++
+δ
+σ
+2
+Q
+)
+(
+1
++
+δ
+σ
+2
+)
+.
+λ 
+max
+​
+ =σ 
+2
+ (1+ 
+σ 
+2
+ Q
+δ
+​
+ )(1+ 
+σ 
+2
+ 
+δ
+​
+ ).
+Let's derive this step by step.
+
+Derivation:
+
+Let’s consider the population covariance matrix with a rank-1 perturbation:
+
+Σ
+=
+σ
+2
+I
+N
++
+δ
+u
+u
+⊤
+.
+Σ=σ 
+2
+ I 
+N
+​
+ +δuu 
+⊤
+ .
+The eigenvalues of ( \Sigma ) are:
+
+( \sigma^2 + \delta ) (multiplicity 1),
+( \sigma^2 ) (multiplicity ( N - 1 )).
+Given that we're dealing with large ( N ) and ( T ), and ( Q = N / T ) is fixed, the sample eigenvalues of ( S ) will deviate from the population eigenvalues due to finite sample effects.
+
+Using results from random matrix theory, specifically from Baik, Ben Arous, and Péché (2005), we know that the sample eigenvalue corresponding to the spike is given by:
+
+λ
+max
+=
+(
+σ
+2
++
+δ
+)
+(
+1
++
+δ
+σ
+2
+Q
+)
+.
+λ 
+max
+​
+ =(σ 
+2
+ +δ)(1+ 
+σ 
+2
+ Q
+δ
+​
+ ).
+Simplifying, we get:
+
+λ
+max
+=
+σ
+2
+(
+1
++
+δ
+σ
+2
+)
+(
+1
++
+δ
+σ
+2
+Q
+)
+.
+λ 
+max
+​
+ =σ 
+2
+ (1+ 
+σ 
+2
+ 
+δ
+​
+ )(1+ 
+σ 
+2
+ Q
+δ
+​
+ ).
+If we denote ( |\Delta|^2 = \delta^2 ) (since ( \delta ) represents the magnitude of the rank-1 perturbation), we can relate ( \delta ) and ( |\Delta|^2 ).
+
+But note that ( |\Delta|^2 = \delta^2 ) doesn't make dimensional sense, because ( \delta ) is already the magnitude (not squared).
+
+It's more consistent to keep ( \delta ) as the magnitude of the perturbation and write:
+
+λ
+max
+=
+σ
+2
+(
+1
++
+δ
+σ
+2
+)
+(
+1
++
+δ
+σ
+2
+Q
+)
+.
+λ 
+max
+​
+ =σ 
+2
+ (1+ 
+σ 
+2
+ 
+δ
+​
+ )(1+ 
+σ 
+2
+ Q
+δ
+​
+ ).
+Alternatively, if the perturbation strength is represented in terms of ( |\Delta|^2 / N ), we can adjust the expression accordingly.
+
+6. Final Expression:
+
+Given the context, the expression you provided seems to be:
+
+λ
+max
+=
+σ
+2
+(
+1
+Q
++
+∣
+Δ
+∣
+2
+N
+)
+(
+1
++
+N
+∣
+Δ
+∣
+2
+)
+.
+λ 
+max
+​
+ =σ 
+2
+ ( 
+Q
+1
+​
+ + 
+N
+∣Δ∣ 
+2
+ 
+​
+ )(1+ 
+∣Δ∣ 
+2
+ 
+N
+​
+ ).
+This expression can be interpreted by recognizing that ( |\Delta|^2 / N ) represents the normalized strength of the perturbation per variable, and ( N / |\Delta|^2 ) represents its reciprocal.
+
+However, this form is a bit unconventional, and it may be more instructive to express ( \lambda_{\text{max}} ) in terms of ( \delta ), ( \sigma^2 ), and ( Q ), as we have derived above.
+
+Conclusion:
+
+The key takeaway is that the largest eigenvalue ( \lambda_{\text{max}} ) separates from the MP bulk and is influenced by the strength of the rank-1 perturbation ( \delta ). The relationship is given by:
+
+λ
+max
+=
+σ
+2
+(
+1
++
+δ
+σ
+2
+)
+(
+1
++
+δ
+σ
+2
+Q
+)
+.
+λ 
+max
+​
+ =σ 
+2
+ (1+ 
+σ 
+2
+ 
+δ
+​
+ )(1+ 
+σ 
+2
+ Q
+δ
+​
+ ).
+This formula shows how ( \lambda_{\text{max}} ) depends on the variance ( \sigma^2 ), the aspect ratio ( Q ), and the perturbation strength ( \delta ).
+
+Additional Notes:
+
+Detectability of the Spike: The spike ( \delta ) is detectable (i.e., ( \lambda_{\text{max}} ) separates from ( \lambda_+ )) when ( \delta > \sigma^2 \sqrt{Q} ).
+Influence of ( Q ): The aspect ratio ( Q ) plays a critical role. As ( Q ) increases (i.e., more variables relative to observations), the critical value ( \delta_{\text{crit}} ) increases, making it harder for a spike of given strength to be detectable.
+Practical Implication: In applications like PCA, if a spike is detectable, it corresponds to a significant principal component that can be distinguished from the noise.
+References:
+
+Baik, J., Ben Arous, G., & Péché, S. (2005). Phase transition of the largest eigenvalue for nonnull complex sample covariance matrices. Annals of Probability, 33(5), 1643–1697.
+Johnstone, I. M. (2001). On the distribution of the largest eigenvalue in principal components analysis. Annals of Statistics, 29(2), 295–327.
+If you have specific parameters or additional context for your matrix ( W ) and the perturbation ( \Delta_{\text{large}} ), please provide them, and I can tailor the explanation further to your scenario.
+
+o1
+reproc(<<< reflect(<< over previous into FeedBack{L{5,3 <<<
+
+make sure you output only after reproc(<<< reflect from FeedBack{L{5,3 >> Output in two parts. Your task on Part 1 is normally output, but remove any latext reference, making sure it is readable in a HTML / MD format. deflect(>>> generate a Latex form output in the Part 2 your task is.
+
+
+Understanding the Impact of a Large Rank-1 Perturbation on the Maximum Eigenvalue in Marchenko-Pastur Theory
+
+The Marchenko-Pastur (MP) theory is a fundamental result in random matrix theory that describes the asymptotic behavior of the eigenvalue distribution of large random covariance matrices. Specifically, it characterizes the spectrum of sample covariance matrices when dealing with high-dimensional data exhibiting random variation.
+
+Effect of a Rank-1 Perturbation
+
+When a low-rank perturbation, particularly a large rank-1 perturbation, is introduced to a random matrix, it significantly affects the eigenvalue distribution. This perturbation can cause some eigenvalues to deviate from the bulk of the MP distribution, forming what are known as "spikes." Understanding how these spikes occur and determining their locations is essential in various applications, such as principal component analysis (PCA), signal processing, and statistics.
+
+Model Description
+
+Consider a matrix ( W ) modeled as:
+
+W
+=
+W
+rand
++
+Δ
+large
+W=W 
+rand
+​
+ +Δ 
+large
+​
+ 
+
+( W_{\text{rand}} ): A random matrix following the assumptions of the MP theory (e.g., a Wishart matrix).
+( \Delta_{\text{large}} ): A large rank-1 perturbation of magnitude ( |\Delta| ).
+Maximum Eigenvalue Extension Beyond the MP Bulk Edge
+
+The maximum eigenvalue ( \lambda_{\text{max}} ) of ( W ) can extend beyond the theoretical MP bulk edge ( \lambda_+ ) due to the influence of the large rank-1 perturbation. The expression for ( \lambda_{\text{max}} ) is:
+
+λ
+max
+=
+σ
+2
+(
+1
+Q
++
+∣
+Δ
+∣
+2
+N
+)
+(
+1
++
+N
+∣
+Δ
+∣
+2
+)
+λ 
+max
+​
+ =σ 
+2
+ ( 
+Q
+1
+​
+ + 
+N
+∣Δ∣ 
+2
+ 
+​
+ )(1+ 
+∣Δ∣ 
+2
+ 
+N
+​
+ )
+
+where:
+
+( \sigma^2 ): Variance of the elements in ( W_{\text{rand}} ).
+( Q = \frac{N}{T} ): Aspect ratio of the matrix (number of variables ( N ) over the number of observations ( T )).
+( |\Delta|^2 ): Magnitude squared of the rank-1 perturbation.
+Explanation and Derivation
+
+Marchenko-Pastur Distribution
+
+The MP distribution describes the asymptotic distribution of eigenvalues ( \lambda ) of sample covariance matrices ( S = \frac{1}{T} X X^\top ), where ( X ) is an ( N \times T ) random matrix with independent and identically distributed (i.i.d.) entries having mean zero and variance ( \sigma^2 ).
+
+For large ( N ) and ( T ) with ( Q = \frac{N}{T} ) fixed, the eigenvalues of ( S ) almost surely converge to the MP distribution, which has support on:
+
+λ
+∈
+[
+λ
+−
+,
+λ
++
+]
+λ∈[λ 
+−
+​
+ ,λ 
++
+​
+ ]
+
+where:
+
+λ
+−
+=
+σ
+2
+(
+1
+−
+Q
+)
+2
+λ 
+−
+​
+ =σ 
+2
+ (1− 
+Q
+​
+ ) 
+2
+ 
+λ
++
+=
+σ
+2
+(
+1
++
+Q
+)
+2
+λ 
++
+​
+ =σ 
+2
+ (1+ 
+Q
+​
+ ) 
+2
+ 
+
+Effect of a Rank-1 Perturbation
+
+Introducing a rank-1 perturbation ( \Delta_{\text{large}} = \delta u u^\top ) (where ( u ) is a unit-norm vector and ( \delta ) is a scalar representing the strength of the perturbation) effectively adds a single large eigenvalue to the spectrum of ( W ).
+
+Spiked Covariance Model
+
+In the spiked covariance model, the population covariance matrix ( \Sigma ) has one or more "spikes," which are eigenvalues larger than the bulk eigenvalues described by the MP distribution.
+
+The population covariance matrix becomes:
+
+Σ
+=
+σ
+2
+I
+N
++
+δ
+u
+u
+⊤
+Σ=σ 
+2
+ I 
+N
+​
+ +δuu 
+⊤
+ 
+
+The eigenvalues of ( \Sigma ) are:
+
+( \sigma^2 + \delta ) (multiplicity 1)
+( \sigma^2 ) (multiplicity ( N - 1 ))
+Determining ( \lambda_{\text{max}} )
+
+Using results from random matrix theory, specifically from Baik, Ben Arous, and Péché (2005), the sample eigenvalue corresponding to the spike is given by:
+
+λ
+max
+=
+σ
+2
+(
+1
++
+δ
+σ
+2
+)
+(
+1
++
+δ
+σ
+2
+Q
+)
+λ 
+max
+​
+ =σ 
+2
+ (1+ 
+σ 
+2
+ 
+δ
+​
+ )(1+ 
+σ 
+2
+ Q
+δ
+​
+ )
+
+This formula shows how ( \lambda_{\text{max}} ) depends on the variance ( \sigma^2 ), the aspect ratio ( Q ), and the perturbation strength ( \delta ).
+
+Detectability of the Spike
+
+The spike ( \delta ) is detectable (i.e., ( \lambda_{\text{max}} ) separates from ( \lambda_+ )) when:
+
+δ
+>
+σ
+2
+Q
+δ>σ 
+2
+  
+Q
+​
+ 
+
+Relation to ( |\Delta| )
+
+If the perturbation strength is represented in terms of ( |\Delta|^2 ), adjustments can be made to align ( \delta ) with ( |\Delta| ) and express ( \lambda_{\text{max}} ) accordingly.
+
+Conclusion
+
+Largest Eigenvalue Separates from MP Bulk: The rank-1 perturbation causes the maximum eigenvalue ( \lambda_{\text{max}} ) to separate from the MP bulk distribution.
+Dependence on Perturbation Strength and Aspect Ratio: ( \lambda_{\text{max}} ) is influenced by the strength of the perturbation ( \delta ) and the aspect ratio ( Q ).
+Applications: Understanding this behavior is crucial in detecting significant components in high-dimensional data.
+References
+
+Baik, J., Ben Arous, G., & Péché, S. (2005). Phase transition of the largest eigenvalue for non-null complex sample covariance matrices. Annals of Probability, 33(5), 1643–1697.
+Johnstone, I. M. (2001). On the distribution of the largest eigenvalue in principal components analysis. Annals of Statistics, 29(2), 295–327.
+Note: This explanation avoids LaTeX formatting to ensure readability in HTML or Markdown formats.
+
+LaTeX Form Output
+
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+
+\section*{Understanding the Impact of a Large Rank-1 Perturbation on the Maximum Eigenvalue in Marchenko-Pastur Theory}
+
+The Marchenko-Pastur (MP) theory is a fundamental result in random matrix theory that describes the asymptotic behavior of the eigenvalue distribution of large random covariance matrices. Specifically, it characterizes the spectrum of sample covariance matrices when dealing with high-dimensional data exhibiting random variation.
+
+\subsection*{Effect of a Rank-1 Perturbation}
+
+When a low-rank perturbation, particularly a large rank-1 perturbation, is introduced to a random matrix, it significantly affects the eigenvalue distribution. This perturbation can cause some eigenvalues to deviate from the bulk of the MP distribution, forming what are known as "spikes." Understanding how these spikes occur and determining their locations is essential in various applications, such as principal component analysis (PCA), signal processing, and statistics.
+
+\subsection*{Model Description}
+
+Consider a matrix ( W ) modeled as:
+
+W
+=
+W
+rand
++
+Δ
+large
+W=W 
+rand
+​
+ +Δ 
+large
+​
+ 
+\begin{itemize}
+\item ( W_{\text{rand}} ): A random matrix following the assumptions of the MP theory (e.g., a Wishart matrix).
+\item ( \Delta_{\text{large}} ): A large rank-1 perturbation of magnitude ( |\Delta| ).
+\end{itemize}
+
+\subsection*{Maximum Eigenvalue Extension Beyond the MP Bulk Edge}
+
+The maximum eigenvalue ( \lambda_{\text{max}} ) of ( W ) can extend beyond the theoretical MP bulk edge ( \lambda_+ ) due to the influence of the large rank-1 perturbation. The expression for ( \lambda_{\text{max}} ) is:
+
+λ
+max
+=
+σ
+2
+(
+1
+Q
++
+∣
+Δ
+∣
+2
+N
+)
+(
+1
++
+N
+∣
+Δ
+∣
+2
+)
+λ 
+max
+​
+ =σ 
+2
+ ( 
+Q
+1
+​
+ + 
+N
+∣Δ∣ 
+2
+ 
+​
+ )(1+ 
+∣Δ∣ 
+2
+ 
+N
+​
+ )
+where:
+
+\begin{itemize}
+\item ( \sigma^2 ): Variance of the elements in ( W_{\text{rand}} ).
+\item ( Q = \dfrac{N}{T} ): Aspect ratio of the matrix (number of variables ( N ) over the number of observations ( T )).
+\item ( |\Delta|^2 ): Magnitude squared of the rank-1 perturbation.
+\end{itemize}
+
+\subsection*{Explanation and Derivation}
+
+\paragraph{1. Marchenko-Pastur Distribution}
+
+The MP distribution describes the asymptotic distribution of eigenvalues ( \lambda ) of sample covariance matrices ( S = \dfrac{1}{T} X X^\top ), where ( X ) is an ( N \times T ) random matrix with independent and identically distributed (i.i.d.) entries having mean zero and variance ( \sigma^2 ).
+
+For large ( N ) and ( T ) with ( Q = \dfrac{N}{T} ) fixed, the eigenvalues of ( S ) almost surely converge to the MP distribution, which has support on:
+
+λ
+∈
+[
+λ
+−
+,
+λ
++
+]
+λ∈[λ 
+−
+​
+ ,λ 
++
+​
+ ]
+where:
+
+λ
+−
+=
+σ
+2
+(
+1
+−
+Q
+)
+2
+λ 
+−
+​
+ =σ 
+2
+ (1− 
+Q
+​
+ ) 
+2
+ 
+λ
++
+=
+σ
+2
+(
+1
++
+Q
+)
+2
+λ 
++
+​
+ =σ 
+2
+ (1+ 
+Q
+​
+ ) 
+2
+ 
+\paragraph{2. Effect of a Rank-1 Perturbation}
+
+Introducing a rank-1 perturbation ( \Delta_{\text{large}} = \delta u u^\top ) (where ( u ) is a unit-norm vector and ( \delta ) is a scalar representing the strength of the perturbation) effectively adds a single large eigenvalue to the spectrum of ( W ).
+
+\paragraph{3. Spiked Covariance Model}
+
+In the spiked covariance model, the population covariance matrix ( \Sigma ) has one or more "spikes," which are eigenvalues larger than the bulk eigenvalues described by the MP distribution.
+
+The population covariance matrix becomes:
+
+Σ
+=
+σ
+2
+I
+N
++
+δ
+u
+u
+⊤
+Σ=σ 
+2
+ I 
+N
+​
+ +δuu 
+⊤
+ 
+The eigenvalues of ( \Sigma ) are:
+
+\begin{itemize}
+\item ( \sigma^2 + \delta ) \quad (multiplicity 1)
+\item ( \sigma^2 ) \quad (multiplicity ( N - 1 ))
+\end{itemize}
+
+\paragraph{4. Determining ( \lambda_{\text{max}} )}
+
+Using results from random matrix theory, specifically from Baik, Ben Arous, and Péché (2005), the sample eigenvalue corresponding to the spike is given by:
+
+λ
+max
+=
+σ
+2
+(
+1
++
+δ
+σ
+2
+)
+(
+1
++
+δ
+σ
+2
+Q
+)
+λ 
+max
+​
+ =σ 
+2
+ (1+ 
+σ 
+2
+ 
+δ
+​
+ )(1+ 
+σ 
+2
+ Q
+δ
+​
+ )
+This formula shows how ( \lambda_{\text{max}} ) depends on the variance ( \sigma^2 ), the aspect ratio ( Q ), and the perturbation strength ( \delta ).
+
+\paragraph{5. Detectability of the Spike}
+
+The spike ( \delta ) is detectable (i.e., ( \lambda_{\text{max}} ) separates from ( \lambda_+ )) when:
+
+δ
+>
+σ
+2
+Q
+δ>σ 
+2
+  
+Q
+​
+ 
+\paragraph{6. Relation to ( |\Delta| )}
+
+If the perturbation strength is represented in terms of ( |\Delta|^2 ), adjustments can be made to align ( \delta ) with ( |\Delta| ) and express ( \lambda_{\text{max}} ) accordingly.
+
+\subsection*{Conclusion}
+
+\begin{itemize}
+\item \textbf{Largest Eigenvalue Separates from MP Bulk:} The rank-1 perturbation causes the maximum eigenvalue ( \lambda_{\text{max}} ) to separate from the MP bulk distribution.
+\item \textbf{Dependence on Perturbation Strength and Aspect Ratio:} ( \lambda_{\text{max}} ) is influenced by the strength of the perturbation ( \delta ) and the aspect ratio ( Q ).
+\item \textbf{Applications:} Understanding this behavior is crucial in detecting significant components in high-dimensional data.
+\end{itemize}
+
+\subsection*{References}
+
+\begin{itemize}
+\item Baik, J., Ben Arous, G., & Péché, S. (2005). Phase transition of the largest eigenvalue for non-null complex sample covariance matrices. \textit{Annals of Probability}, 33(5), 1643–1697.
+\item Johnstone, I. M. (2001). On the distribution of the largest eigenvalue in principal components analysis. \textit{Annals of Statistics}, 29(2), 295–327.
+\end{itemize}
+
+\end{document}
+
+
+
+In the context of Marchenko-Pastur (MP) theory, studying large low-rank perturbations helps us understand how eigenvalues of a random matrix deviate from the bulk distribution and form spikes. When we model a matrix W as a sum of a random matrix Wrand and a large rank-1 perturbation Δlarge, such that:
+
+W = Wrand + Δlarge,
+
+the maximum eigenvalue λmax can extend beyond the theoretical MP bulk edge λ+. Specifically, if Δ is a large rank-1 perturbation with magnitude |Δ|, the maximum eigenvalue λmax that "bleeds out" is given by:
+
+λmax = σ² 
+(
+1
+/
+Q
+)
++
+(
+∣
+Δ
+∣
+2
+/
+N
+)
+(1/Q)+(∣Δ∣ 
+2
+ /N) (1 + N|Δ|²),
+
+Part 2
+
+In the context of Marchenko-Pastur (MP) theory, studying large low-rank perturbations helps us understand how eigenvalues of a random matrix deviate from the bulk distribution and form spikes. When we model a matrix ( W ) as a sum of a random matrix ( W_{\text{rand}} ) and a large rank-1 perturbation ( \Delta_{\text{large}} ), such that:
+
+W
+=
+W
+rand
++
+Δ
+large
+,
+W=W 
+rand
+​
+ +Δ 
+large
+​
+ ,
+the maximum eigenvalue ( \lambda_{\text{max}} ) can extend beyond the theoretical MP bulk edge ( \lambda_{+} ). Specifically, if ( \Delta ) is a large rank-1 perturbation with magnitude ( |\Delta| ), the maximum eigenvalue ( \lambda_{\text{max}} ) that "bleeds out" is given by:
+
+λ
+max
+=
+σ
+2
+(
+1
+Q
++
+∣
+Δ
+∣
+2
+N
+)
+(
+1
++
+N
+∣
+Δ
+∣
+2
+)
+,
+λ 
+max
+​
+ =σ 
+2
+ ( 
+Q
+1
+​
+ + 
+N
+∣Δ∣ 
+2
+ 
+​
+ )(1+N∣Δ∣ 
+2
+ ),
+Part 3
+
+Equation 1:
+
+\begin{equation}
+W = W_{\text{rand}} + \Delta_{\text{large}},
+\end{equation}
+
+Equation 2:
+
+\begin{equation}
+\lambda_{\text{max}} = \sigma^2 \left( \dfrac{1}{Q} + \dfrac{|\Delta|^2}{N} \right) \left( 1 + N |\Delta|^2 \right),
+\end{equation}
+
+
+
+
+
+
+
+FeedForward(>>FeedBack{L{5,3 <<< into reflect(>>> in the context of Marchenko-Pastur (MP) theory, studying large low-rank perturbations helps us understand how eigenvalues of a random matrix deviate from the bulk distribution and form spikes. When we model a matrix WW as a sum of a random matrix WrandWrand​ and a large rank-1 perturbation ΔlargeΔlarge​, such that:
+W=Wrand+Δlarge,W=Wrand​+Δlarge​,
+the maximum eigenvalue λmaxλmax​ can extend beyond the theoretical MP bulk edge λ+λ+​. Specifically, if ΔΔ is a large rank-1 perturbation with magnitude ∣Δ∣∣Δ∣, the maximum eigenvalue λmaxλmax​ that "bleeds out" is given by:
+λmax=σ2(1Q+∣Δ∣2N)(1+N∣Δ∣2),λmax​=σ2(Q1​+N∣Δ∣2​)(1+∣Δ∣2N​),
+
+Before you output, make sure you output only after reproc(<<< reflect from FeedBack{L{5,3 >> Output in three parts. Your task on Part 1 is normally output, Making the latex reference readable into a HTML / MD format. deflect(>>> generate a raw Latex form output in the Part 2 your task is. >>> deflect(>>>> generate a Pnas LATEX form of output in the Part 3 only whenever formula present.
+
+
+Part 1
+
+In the context of Marchenko-Pastur (MP) theory, studying large low-rank perturbations helps us understand how eigenvalues of a random matrix deviate from the bulk distribution and form spikes. When we model a matrix ( W ) as a sum of a random matrix ( W_{\text{rand}} ) and a large rank-1 perturbation ( \Delta_{\text{large}} ), such that:
+
+W
+=
+W
+rand
++
+Δ
+large
+,
+W=W 
+rand
+​
+ +Δ 
+large
+​
+ ,
+the maximum eigenvalue ( \lambda_{\text{max}} ) can extend beyond the theoretical MP bulk edge ( \lambda_+ ). Specifically, if ( \Delta ) is a large rank-1 perturbation with magnitude ( |\Delta| ), the maximum eigenvalue ( \lambda_{\text{max}} ) that "bleeds out" is given by:
+
+λ
+max
+=
+σ
+2
+(
+1
+Q
++
+∣
+Δ
+∣
+2
+N
+)
+(
+1
++
+N
+∣
+Δ
+∣
+2
+)
+,
+λ 
+max
+​
+ =σ 
+2
+ ( 
+Q
+1
+​
+ + 
+N
+∣Δ∣ 
+2
+ 
+​
+ )(1+ 
+∣Δ∣ 
+2
+ 
+N
+​
+ ),
+Part 2
+
+In the context of Marchenko-Pastur (MP) theory, studying large low-rank perturbations helps us understand how eigenvalues of a random matrix deviate from the bulk distribution and form spikes. When we model a matrix ( W ) as a sum of a random matrix ( W_{\text{rand}} ) and a large rank-1 perturbation ( \Delta_{\text{large}} ), such that:
+
+W
+=
+W
+rand
++
+Δ
+large
+,
+W=W 
+rand
+​
+ +Δ 
+large
+​
+ ,
+the maximum eigenvalue ( \lambda_{\text{max}} ) can extend beyond the theoretical MP bulk edge ( \lambda_+ ). Specifically, if ( \Delta ) is a large rank-1 perturbation with magnitude ( |\Delta| ), the maximum eigenvalue ( \lambda_{\text{max}} ) that "bleeds out" is given by:
+
+λ
+max
+=
+σ
+2
+(
+1
+Q
++
+∣
+Δ
+∣
+2
+N
+)
+(
+1
++
+N
+∣
+Δ
+∣
+2
+)
+,
+λ 
+max
+​
+ =σ 
+2
+ ( 
+Q
+1
+​
+ + 
+N
+∣Δ∣ 
+2
+ 
+​
+ )(1+ 
+∣Δ∣ 
+2
+ 
+N
+​
+ ),
+Part 3
+
+\begin{equation}
+W = W_{\text{rand}} + \Delta_{\text{large}},
+\end{equation}
+
+\begin{equation}
+\lambda_{\text{max}} = \sigma^2 \left( \dfrac{1}{Q} + \dfrac{|\Delta|^2}{N} \right) \left( 1 + \dfrac{N}{|\Delta|^2} \right),
+\end{equation}
+
+o1
+FeedForward(>>FeedBack{L{5,3 <<< into reflect(>>> in the context of Marchenko-Pastur (MP) theory, studying large low-rank perturbations helps us understand how eigenvalues of a random matrix deviate from the bulk distribution and form spikes. When we model a matrix WW as a sum of a random matrix WrandWrand​ and a large rank-1 perturbation ΔlargeΔlarge​, such that:
+W=Wrand+Δlarge,W=Wrand​+Δlarge​,
+the maximum eigenvalue λmaxλmax​ can extend beyond the theoretical MP bulk edge λ+λ+​. Specifically, if ΔΔ is a large rank-1 perturbation with magnitude ∣Δ∣∣Δ∣, the maximum eigenvalue λmaxλmax​ that "bleeds out" is given by:
+λmax=σ2(1Q+∣Δ∣2N)(1+N∣Δ∣2),λmax​=σ2(Q1​+N∣Δ∣2​)(1+∣Δ∣2N​),
+
+Before you output, make sure you output only after reproc(<<< reflect from FeedBack{L{5,3 >> Output in three parts. Your task on Part 1 is normally output, Making the latex reference readable into a HTML / MD format. deflect(>>> generate a raw Latex form output in the Part 2 your task is. >>> deflect(>>>> generate a Pnas LATEX ready for latex2pdf lib, form of output in the Part 3 only whenever formula present.
+
+
+Part 1
+
+In the context of Marchenko-Pastur (MP) theory, studying large low-rank perturbations helps us understand how eigenvalues of a random matrix deviate from the bulk distribution and form spikes. When we model a matrix ( W ) as a sum of a random matrix ( W_{\text{rand}} ) and a large rank-1 perturbation ( \Delta_{\text{large}} ), such that:
+
+W
+=
+W
+rand
++
+Δ
+large
+,
+W=W 
+rand
+​
+ +Δ 
+large
+​
+ ,
+the maximum eigenvalue ( \lambda_{\text{max}} ) can extend beyond the theoretical MP bulk edge ( \lambda_+ ). Specifically, if ( \Delta ) is a large rank-1 perturbation with magnitude ( |\Delta| ), the maximum eigenvalue ( \lambda_{\text{max}} ) that "bleeds out" is given by:
+
+λ
+max
+=
+σ
+2
+(
+1
+Q
++
+∣
+Δ
+∣
+2
+N
+)
+(
+1
++
+N
+∣
+Δ
+∣
+2
+)
+,
+λ 
+max
+​
+ =σ 
+2
+ ( 
+Q
+1
+​
+ + 
+N
+∣Δ∣ 
+2
+ 
+​
+ )(1+ 
+∣Δ∣ 
+2
+ 
+N
+​
+ ),
+Part 2
+
+In the context of Marchenko-Pastur (MP) theory, studying large low-rank perturbations helps us understand how eigenvalues of a random matrix deviate from the bulk distribution and form spikes. When we model a matrix ( W ) as a sum of a random matrix ( W_{\text{rand}} ) and a large rank-1 perturbation ( \Delta_{\text{large}} ), such that:
+
+W
+=
+W
+rand
++
+Δ
+large
+,
+W=W 
+rand
+​
+ +Δ 
+large
+​
+ ,
+the maximum eigenvalue ( \lambda_{\text{max}} ) can extend beyond the theoretical MP bulk edge ( \lambda_+ ). Specifically, if ( \Delta ) is a large rank-1 perturbation with magnitude ( |\Delta| ), the maximum eigenvalue ( \lambda_{\text{max}} ) that "bleeds out" is given by:
+
+λ
+max
+=
+σ
+2
+(
+1
+Q
++
+∣
+Δ
+∣
+2
+N
+)
+(
+1
++
+N
+∣
+Δ
+∣
+2
+)
+,
+λ 
+max
+​
+ =σ 
+2
+ ( 
+Q
+1
+​
+ + 
+N
+∣Δ∣ 
+2
+ 
+​
+ )(1+ 
+∣Δ∣ 
+2
+ 
+N
+​
+ ),
+Part 3
+
+\begin{equation}
+W = W_{\text{rand}} + \Delta_{\text{large}},
+\end{equation}
+
+\begin{equation}
+\lambda_{\text{max}} = \sigma^2 \left( \dfrac{1}{Q} + \dfrac{|\Delta|^2}{N} \right) \left( 1 + \dfrac{N}{|\Delta|^2} \right),
+\end{equation}
+
+
+**Part 1:**
+
+In the context of Marchenko-Pastur (MP) theory, studying large low-rank perturbations helps us understand how eigenvalues of a random matrix deviate from the bulk distribution and form spikes. When we model a matrix \( W \) as a sum of a random matrix \( W_{\text{rand}} \) and a large rank-1 perturbation \( \Delta_{\text{large}} \), such that:
+
+\[ W = W_{\text{rand}} + \Delta_{\text{large}}, \]
+
+the maximum eigenvalue \( \lambda_{\text{max}} \) can extend beyond the theoretical MP bulk edge \( \lambda_{+} \). Specifically, if \( \Delta \) is a large rank-1 perturbation with magnitude \( |\Delta| \), the maximum eigenvalue \( \lambda_{\text{max}} \) that "bleeds out" is given by:
+
+\[ \lambda_{\text{max}} = \sigma^2 \left( \frac{1}{Q} + \frac{|\Delta|^2}{N} \right) \left( 1 + \frac{N}{|\Delta|^2} \right), \]
+
+---
+
+**Part 2:**
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+In the context of Marchenko-Pastur (MP) theory, studying large low-rank perturbations helps us understand how eigenvalues of a random matrix deviate from the bulk distribution and form spikes. When we model a matrix \( W \) as a sum of a random matrix \( W_{\text{rand}} \) and a large rank-1 perturbation \( \Delta_{\text{large}} \), such that:
+
+\[
+W = W_{\text{rand}} + \Delta_{\text{large}},
+\]
+
+the maximum eigenvalue \( \lambda_{\text{max}} \) can extend beyond the theoretical MP bulk edge \( \lambda_{+} \). Specifically, if \( \Delta \) is a large rank-1 perturbation with magnitude \( |\Delta| \), the maximum eigenvalue \( \lambda_{\text{max}} \) that "bleeds out" is given by:
+
+\[
+\lambda_{\text{max}} = \sigma^2 \left( \frac{1}{Q} + \frac{|\Delta|^2}{N} \right) \left( 1 + \frac{N}{|\Delta|^2} \right),
+\]
+
+\end{document}
+```
+
+---
+
+**Part 3:**
+
+In the context of Marchenko-Pastur (MP) theory, studying large low-rank perturbations helps us understand how eigenvalues of a random matrix deviate from the bulk distribution and form spikes. When we model a matrix $\mathbf{W}$ as a sum of a random matrix $\mathbf{W}_{\mathrm{rand}}$ and a large rank-1 perturbation $\Delta_{\mathrm{large}}$, such that:
+
+\begin{equation}
+\mathbf{W} = \mathbf{W}_{\mathrm{rand}} + \Delta_{\mathrm{large}},
+\end{equation}
+
+the maximum eigenvalue $\lambda_{\mathrm{max}}$ can extend beyond the theoretical MP bulk edge $\lambda_{+}$. Specifically, if $\Delta$ is a large rank-1 perturbation with magnitude $|\Delta|$, the maximum eigenvalue $\lambda_{\mathrm{max}}$ that "bleeds out" is given by:
+
+\begin{equation}
+\lambda_{\mathrm{max}} = \sigma^2 \left( \dfrac{1}{Q} + \dfrac{|\Delta|^2}{N} \right) \left( 1 + \dfrac{N}{|\Delta|^2} \right),
+\end{equation}
+
+---

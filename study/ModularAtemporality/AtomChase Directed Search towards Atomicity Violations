@@ -1,0 +1,14 @@
+
+AtomChase: Directed Search towards Atomicity Violations
+
+
+
+ISSRE'15 (IEEE International Symposium on Software Reliability Engineering)
+
+
+Mahdi Eslamimehr, Mohsen Lesani	
+
+
+
+ 	
+Abstract. Atomicity violation is one of the main sources of concurrency bugs. Empirical studies show that the majority of atomicity violations are instances of the three-access pattern, where two accesses to a shared variable by a thread are interleaved by an access to the same variable by another thread. We present a novel approach to atomicity violation detection that directs the execution towards three-access candidates. The directed search technique comprises two parts: execution schedule synthesis and directed concurrent execution that are based on constraint solving and concolic execution. We have implemented this technique in a tool called AtomChase. In comparison to five previous tools on 22 benchmarks with 4.5 million lines of Java code, AtomChase increased the number of three-access violations found by 24%. To prevent reporting false alarms, we confirm the non-atomicity of the found execution traces. We present and prove sufficient conditions for non-atomicity of traces with the three-access pattern. The conditions could recognize the majority of 89% of the real atomicity violations found by AtomChase. Checking these conditions is more than an order of magnitudefaster than the exhaustive check

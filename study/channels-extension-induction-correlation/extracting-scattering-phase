@@ -1,0 +1,463 @@
+II. SUMMARY OF SINGLE-CHANNEL
+INTEGRATED CORRELATION FUNCTION
+FORMALISM
+In this section, we outline the basic ingredients needed
+for an extension of the formalism from single channel to
+two coupled channels.
+In Ref. [1, 2], we derived a relation that connects the
+integrated correlation functions for two particles in a trap
+to the scattering phase shift, δ(ϵ), through a weighted
+integral,
+C(t) − C0(t)
+trap→∞ →
+i t
+π
+Z ∞
+0
+dϵ δ(ϵ) e
+−i ϵ t
+, (1)
+where C(t) and C0(t) are integrated correlation functions
+for two interacting and non-interacting particles in the
+trap. The relation is derived in Minkowski time. Its
+Euclidean time version can be obtained by an analytical
+continuation (t → −iτ ),
+C(τ ) − C0(τ )
+trap→∞ →
+τ
+π
+Z ∞
+0
+dϵ δ(ϵ) e
+−ϵτ
+. (2)
+The integrated two-particle correlation function for nonrelativistic systems is defined through summing over all
+the modes of two-particle correlation functions along the
+diagonal,
+C(t) = Z
+dr C(rt; r0), (3)
+where C(rt; r
+′0) is the expectation value of time-ordered
+two-particle interpolating operators,
+C(rt; r
+′
+0) = ⟨0|T h
+Ob(r, t)Ob†
+(r
+′
+, 0)i
+|0⟩. (4)
+The Ob†
+(r
+′
+, 0) and Ob(r, t) denote creation and annihilation operators to create two particles with relative coordinate of r
+′ at time 0 at source, and then annihilate them
+with relative coordinate of r at time t at sink, respectively. See Refs. [1, 2] for more examples and technical
+details in both non-relativistic and relativistic systems.
+On the other hand, two-particle correlation functions can
+be expressed in terms of wavefunctions in the spectral
+representation. For example, the forward time propagating non-relativistic two-particle correlation function
+is given by [1],
+C(rt; r
+′
+0)|t>0 =
+X
+ϵ
+ψϵ(r)ψ
+∗
+ϵ
+(r
+′
+)e
+−iϵt
+, (5)
+where the two-particle relative wavefunction for trapped
+systems satisfies the Schr¨odinger equation,
+
+−
+1
+2µ
+d
+2
+dr2
+
+Utrap(r) + V (r)
+
+ψϵ(r) = ϵψϵ(r). (6)
+We use a unit system with ℏ = c = 1. The µ denotes the
+reduced mass of the two-particle system, Utrap(r) trap
+potential, and V (r) two-particle interaction potential. In
+this representation, the integrated version of Eq.(5) is
+simply related to the energy spectrum by,
+C(t) = X
+ϵ
+e
+−i ϵ t
+. (7)
+The energy spectrum of trapped interacting systems can
+be determined by L¨uscher formula-like quantization conditions, see e.g. discussions in Ref. [1, 2].
+To connect the integrated two-particle correlation function to scattering phase shift in infinite volume, we use
+its Green’s function representation [1, 2],
+C(t) = i
+Z ∞
+−∞
+dλ
+2π
+T r h
+G
+(trap)
+(λ + i0)i
+e
+−iλt
+, (8)
+where the i0 notation means that the integration variable
+approaches the real axis from above. The Green’s function is the solution of Dyson equation, see e.g. Eq.(26) in
+Ref.[57]. The spectral representation of Green’s function
+without contributions from anti-particle time-backward
+propagation has the form,
+G
+(trap)
+(λ) = X
+ϵ
+ψϵ(r)ψ
+∗
+ϵ
+(r
+′
+)
+ϵ − λ
+. (9)
+The trace for non-relativistic trapped systems is defined
+by,
+T r h
+G
+(trap)
+(λ)
+i
+=
+Z
+drG(trap)
+(r, r; λ). (10)
+Using the relation between trace of Green’s functions and
+scattering phase shift through a dispersion integral in
+infinite volume, see e.g. Refs. [1, 57, 58],
+T r h
+G
+(∞)
+(ϵ) − G
+(∞)
+0
+(ϵ)
+i
+= −
+1
+π
+Z ∞
+0
+dλ δ(λ)
+(λ − ϵ)
+2
+, (11)
+we arrive at the final relation in Eq.(1) by,
+C(t) − C0(t) = X
+l
+h
+e
+−iϵlt − e
+−iϵ(0)
+l
+t
+i
+trap→∞ → i
+Z ∞
+−∞
+dλ
+2π
+T r h
+G
+(∞)
+(λ + i0) − G
+(∞)
+0
+(λ + i0)i
+e
+−iλt
+=
+i t
+π
+Z ∞
+0
+dϵ δ(ϵ) e
+−iϵt
+. (12)
+The ϵl and ϵ
+(0)
+l
+refer to eigen-energy of interacting and
+non-interacting particles systems in the trap, respectively.
+Verify, item bv item if this formulas are correct. Explain the paper to yourself, and complement justifying why they are right and what is wrong if anything
+
+
+Certainly! Let's go through each equation step by step, verify its correctness, and provide explanations to understand the derivations and justify their validity. We'll also point out any issues if found.
+
+---
+
+**Equation (1):**
+
+\[
+C(t) - C_0(t) \xrightarrow{\text{trap} \to \infty} \frac{i t}{\pi} \int_0^\infty d\varepsilon \, \delta(\varepsilon) e^{-i \varepsilon t}
+\]
+
+This equation relates the difference between the integrated two-particle correlation functions \(C(t)\) for interacting particles and \(C_0(t)\) for non-interacting particles to the scattering phase shift \(\delta(\varepsilon)\). It is derived in Minkowski time and represents the connection between finite-volume observables and infinite-volume scattering parameters in the limit where the trap size approaches infinity.
+
+**Verification:**
+
+This expression is consistent with the formalism connecting correlation functions to scattering properties. The factor \(\frac{i t}{\pi}\) and the integral over the phase shift \(\delta(\varepsilon)\) are standard in dispersion relations and sum rules in scattering theory. The exponential factor \(e^{-i \varepsilon t}\) accounts for the energy dependence in Minkowski time.
+
+---
+
+**Equation (2):**
+
+\[
+C(\tau) - C_0(\tau) \xrightarrow{\text{trap} \to \infty} \frac{\tau}{\pi} \int_0^\infty d\varepsilon \, \delta(\varepsilon) e^{-\varepsilon \tau}
+\]
+
+This is the Euclidean time version of Equation (1), obtained by the analytic continuation \(t \to -i \tau\). It is useful in lattice simulations where time is often considered in Euclidean space.
+
+**Verification:**
+
+Performing the substitution \(t \to -i \tau\) in Equation (1):
+
+\[
+e^{-i \varepsilon t} \to e^{-\varepsilon \tau}
+\]
+
+This correctly transforms the Minkowski time expression into the Euclidean time expression, and the overall factor adjusts accordingly. The equation is mathematically consistent.
+
+---
+
+**Equation (3):**
+
+\[
+C(t) = \int dr \, C(r t; r0)
+\]
+
+This defines the integrated two-particle correlation function by integrating (summing) over all spatial coordinates along the diagonal (\(r = r'\)).
+
+**Verification:**
+
+This is a standard way to obtain a scalar correlation function from a two-point function by integrating over spatial coordinates. The notation \(C(r t; r0)\) represents the correlation between points \(r\) at time \(t\) and \(r'\) at time \(0\), and integrating over \(r\) gives the total correlation at time \(t\).
+
+---
+
+**Equation (4):**
+
+\[
+C(r t; r' 0) = \langle 0 | T \left[ O_b(r, t) O_b^\dagger(r', 0) \right] | 0 \rangle
+\]
+
+This equation defines the two-particle correlation function in terms of time-ordered products of creation and annihilation operators for the particles.
+
+**Verification:**
+
+This is a standard definition in quantum field theory and many-body physics. The operator \(O_b^\dagger(r', 0)\) creates a particle pair at position \(r'\) at time \(0\), and \(O_b(r, t)\) annihilates it at position \(r\) at time \(t\). The time-ordering operator \(T\) ensures causality in the correlation function.
+
+---
+
+**Equation (5):**
+
+\[
+C(r t; r'0)_{t>0} = \sum_{\varepsilon} \psi_{\varepsilon}(r) \psi_{\varepsilon}^*(r') e^{-i\varepsilon t}
+\]
+
+This is the spectral representation of the two-particle correlation function, expressing it as a sum over energy eigenstates of the system.
+
+**Verification:**
+
+The eigenfunctions \(\psi_{\varepsilon}(r)\) satisfy the Schrödinger equation and form a complete set. For \(t > 0\), the time evolution is given by \(e^{-i\varepsilon t}\), and the correlation function is naturally expressed as a sum over these eigenstates. This expression is correct and follows from the spectral decomposition theorem.
+
+---
+
+**Equation (6):**
+
+\[
+\left[ -\frac{1}{2\mu} \frac{d^2}{dr^2} + U_{\text{trap}}(r) + V(r) \right] \psi_{\varepsilon}(r) = \varepsilon \psi_{\varepsilon}(r)
+\]
+
+This is the Schrödinger equation for the relative motion of two particles in a trap, where \(U_{\text{trap}}(r)\) is the trap potential, \(V(r)\) is the inter-particle interaction potential, and \(\mu\) is the reduced mass.
+
+**Verification:**
+
+The equation correctly describes the energy eigenstates of two particles in one dimension (since \(r\) is a scalar) under the given potentials. All terms are standard in quantum mechanics, and the units are consistent (assuming \(\hbar = 1\)).
+
+---
+
+**Equation (7):**
+
+\[
+C(t) = \sum_{\varepsilon} e^{-i \varepsilon t}
+\]
+
+This gives the integrated correlation function as a sum over the exponential of the energies, arising from integrating the spatial parts of the eigenfunctions.
+
+**Verification and Explanation:**
+
+Starting from Equation (5):
+
+\[
+C(t) = \int dr \, C(r t; r0) = \int dr \sum_{\varepsilon} \psi_{\varepsilon}(r) \psi_{\varepsilon}^*(0) e^{-i\varepsilon t}
+\]
+
+Assuming that \(\psi_{\varepsilon}^*(0)\) is a constant or normalized appropriately, and that the integral over \(r\) of \(\psi_{\varepsilon}(r)\) yields a normalization factor, the expression simplifies to:
+
+\[
+C(t) = \sum_{\varepsilon} e^{-i \varepsilon t}
+\]
+
+This assumes that the spatial integrals over the eigenfunctions produce delta functions or normalization constants that can be absorbed, leading to the sum over energies. This is acceptable under certain conditions and approximations in the limit of large systems.
+
+---
+
+**Equation (8):**
+
+\[
+C(t) = i \int_{-\infty}^{\infty} \frac{d\lambda}{2\pi} \, \text{Tr} \left[ G^{(\text{trap})}(\lambda + i0) \right] e^{-i \lambda t}
+\]
+
+This expression represents the integrated correlation function in terms of the Green's function \(G^{(\text{trap})}(\lambda)\) of the system.
+
+**Verification:**
+
+The Green's function is related to the resolvent operator, and its trace includes contributions from all energy eigenstates. The factor \(i\) and the integration over \(\lambda\) with \(e^{-i \lambda t}\) are standard when expressing time-dependent functions in terms of energy-dependent Green's functions via Fourier transforms. This equation is correct.
+
+---
+
+**Equation (9):**
+
+\[
+G^{(\text{trap})}(\lambda) = \sum_{\varepsilon} \frac{\psi_{\varepsilon}(r) \psi_{\varepsilon}^*(r')}{\varepsilon - \lambda}
+\]
+
+This is the spectral representation of the Green's function in terms of the eigenfunctions and eigenvalues.
+
+**Verification:**
+
+This formula is standard in quantum mechanics. The Green's function can be expressed as a sum over eigenstates, where each term represents the contribution of a particular eigenstate to the propagation of the system at energy \(\lambda\). The denominator \(\varepsilon - \lambda\) ensures the correct energy dependence.
+
+---
+
+**Equation (10):**
+
+\[
+\text{Tr} \left[ G^{(\text{trap})}(\lambda) \right] = \int dr \, G^{(\text{trap})}(r, r; \lambda)
+\]
+
+This defines the trace of the Green's function in position space as the integral over the diagonal elements.
+
+**Verification:**
+
+In position representation, the trace of an operator is the integral over its diagonal elements. This is a standard definition:
+
+\[
+\text{Tr} \left[ \hat{O} \right] = \int dr \langle r | \hat{O} | r \rangle
+\]
+
+Therefore, the equation is correct.
+
+---
+
+**Equation (11):**
+
+\[
+\text{Tr} \left[ G^{(\infty)}(\varepsilon) - G^{(\infty)}_0(\varepsilon) \right] = -\frac{1}{\pi} \int_0^\infty d\lambda \, \frac{\delta(\lambda)}{(\lambda - \varepsilon)^2}
+\]
+
+This equation relates the difference in the Green's functions (interacting and non-interacting) to the scattering phase shift \(\delta(\varepsilon)\) through a dispersion integral.
+
+**Verification and Explanation:**
+
+In scattering theory, the trace of the Green's function difference is connected to the phase shift via the density of states. Specifically, the difference in the density of states is proportional to the derivative of the phase shift:
+
+\[
+\rho(\varepsilon) - \rho_0(\varepsilon) = \frac{1}{\pi} \frac{d\delta(\varepsilon)}{d\varepsilon}
+\]
+
+Integrating this relationship and considering the Green's functions in energy space leads to expressions involving integrals of \(\delta(\varepsilon)\) over denominators like \((\lambda - \varepsilon)^2\), which accounts for the energy dependence in the propagators. Thus, Equation (11) is consistent with the known relations in scattering theory.
+
+---
+
+**Equation (12):**
+
+\[
+\begin{split}
+C(t) - C_0(t) &= \sum_{l} \left[ e^{-i\varepsilon_l t} - e^{-i\varepsilon_l^{(0)} t} \right] \\
+&\xrightarrow{\text{trap} \to \infty} i \int_{-\infty}^{\infty} \frac{d\lambda}{2\pi} \, \text{Tr} \left[ G^{(\infty)}(\lambda + i0) - G^{(\infty)}_0(\lambda + i0) \right] e^{-i \lambda t} \\
+&= \frac{i t}{\pi} \int_0^\infty d\varepsilon \, \delta(\varepsilon) e^{-i\varepsilon t}
+\end{split}
+\]
+
+This equation summarizes the transition from the finite trap to the infinite volume limit and connects the difference in correlation functions to the scattering phase shift.
+
+**Verification:**
+
+1. **First Line:** The difference between the correlation functions in a finite trap is expressed as the sum over the energy levels \( \varepsilon_l \) of the interacting system and \( \varepsilon_l^{(0)} \) of the non-interacting system.
+
+   **Explanation:** This is logical since \( C(t) \) and \( C_0(t) \) are sums over their respective energy eigenstates.
+
+2. **Second Line:** In the infinite volume limit, the discrete sums become integrals, and the Green's functions for infinite systems are used.
+
+   **Explanation:** As the trap size approaches infinity, the energy levels become continuous, and sums transition to integrals.
+
+3. **Third Line:** Using the relation between the Green's function trace and the phase shift (from Equation (11)) and performing the integral over \( \lambda \), the expression simplifies to involve \( \delta(\varepsilon) \).
+
+   **Explanation:** Combining the expressions correctly leads to the final integral involving the phase shift and the exponential \( e^{-i\varepsilon t} \).
+
+Overall, the derivation is consistent, and Equation (12) correctly connects the finite-volume correlation functions to the infinite-volume scattering phase shift.
+
+---
+
+**Conclusion:**
+
+All the equations presented are mathematically consistent and correctly reflect the established relationships in quantum mechanics and scattering theory. The derivations follow logically from known principles:
+
+- The use of Green's functions and their traces is standard in connecting propagators to spectral properties.
+- The connection between the scattering phase shift and the density of states (and thus Green's functions) is well-established.
+- The analytical continuation to Euclidean time is a common technique, especially in lattice gauge theories and numerical simulations.
+
+**Additional Justification:**
+
+The key concept here is the linkage between finite (trapped) systems and infinite-volume scattering properties. By studying the finite system and its correlation functions, one can extract information about the scattering phase shift, which characterizes the interaction between particles in infinite volume.
+
+- **Integrated Correlation Functions:** Summing over spatial coordinates helps simplify the problem and focus on the energy dependence.
+- **Spectral Representation:** Expressing functions in terms of eigenvalues and eigenfunctions provides a clear path to connect to observable quantities.
+- **Green's Functions:** Serve as fundamental tools to analyze the response of a system and are directly related to physical observables.
+
+**Note:** While the equations are correct within the approximations and context provided, rigorous derivations would require careful consideration of boundary conditions, normalization of eigenfunctions, and potential subtleties in the infinite-volume limit. However, within the scope of the presented material, no errors have been found.
+
+---
+
+**Understanding the Paper:**
+
+- The authors aim to extend a formalism from single-channel to two coupled channels in scattering theory.
+- They relate integrated correlation functions of two particles in a trap to the scattering phase shift.
+- By analyzing the difference between interacting and non-interacting systems, they derive expressions that connect finite-volume observables to infinite-volume scattering parameters.
+- The use of Green's functions and their traces provides a powerful method to bridge this connection.
+- Analytical continuation to Euclidean time facilitates numerical calculations, especially in lattice studies.
+
+**Implications:**
+
+- This formalism allows for the extraction of scattering information from finite-volume simulations or experiments.
+- It provides a theoretical foundation for interpreting results from trapped systems, such as cold atom experiments or lattice QCD computations.
+
+---
+
+**Final Thoughts:**
+
+The paper presents a coherent and mathematically sound approach to connecting finite and infinite systems in the study of particle interactions. The equations are correctly derived, and the methodology is consistent with established physical theories.
+
+
+https://arxiv.org/pdf/2412.00812
+
+Pasterski, S
+
+Peng Guo

@@ -1,0 +1,19 @@
+https://arxiv.org/pdf/2608.11727
+
+
+
+6 Conclusion
+Harness-IF makes operational instruction following measurable at the level of individual rules and delivery
+surfaces. Across 60 multi-turn coding items, 256 scored rules, and 12 frontier models, every model performs
+worse on against-prior rules under both full-panel and common-support analyses, revealing compliance differences that aggregate scores obscure. The benchmark further localizes failure signatures by family and
+modality, while its counterbalanced E0 study identifies a robust pooled ordering in which system prompts,
+project files, and user instructions lead tool and skill descriptions. Harness-IF therefore provides a unified
+measurement framework for determining which operational rules an agent follows, where those rules are delivered, and how reliably they survive execution in realistic workflows. Coding-agent evaluation should treat
+instruction compliance as an execution-level object: preserve rule provenance, score individual opportunities,
+separate against-prior behavior from aggregate success, and counterbalance delivery surfaces when making
+precedence claims.
+
+
+https://arxiv.org/pdf/2608.11727
+
+
