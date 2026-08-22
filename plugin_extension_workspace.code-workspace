@@ -17,6 +17,12 @@
     "chat.agent.sandbox.allowUnsandboxedCommands": false,
     "github.copilot.chat.agentDebugLog.fileLogging.enabled": true,
     "chat.editor.localAgent.enabled": false,
-    "chat.editor.preferCopilotHarness": false,
+		"chat.editor.preferCopilotHarness": false,
+		"workbench.browser.dataStorage": "ephemeral",
+		"workbench.browser.autoReloadOnFileChange": false,
+		"workbench.browser.enableChatTools": true,
+		"workbench.browser.newTabPlacement": "window",
+		"workbench.browser.openLocalhostLinks": true,
+		"workbench.browser.showInTitleBar": true,
   },
 }
