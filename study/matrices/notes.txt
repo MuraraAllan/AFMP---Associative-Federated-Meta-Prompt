@@ -1,0 +1,3 @@
+// how to estimate linearity
+
+https://transformer-circuits.pub/2026/interference_effectiveness_helpfulness/index.html

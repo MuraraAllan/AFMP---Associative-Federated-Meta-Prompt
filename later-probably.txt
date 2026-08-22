@@ -1,0 +1,59 @@
+. On the one hand, one can fix the coordinate freedom only asymptotically in which case the asymptotic symmetry algebra appears
+as the quotient algebra of allowed, modulo an ideal of trivial, infinitesimal transformationsThe advantage of this approach is that it is easier to show that specific solutions
+SUPERTRANSLATIONS AND SUPERROTATIONS 3
+to the equations of motion are admissible, i.e., asymptotically flat in the case of interest
+here.
+
+
+
+When one chooses to fix the coordinate freedom completely on the other hand,
+the asymptotic symmetry algebra appears as the residual “global” symmetry algebra after
+gauge fixing and no longer depends on arbitrary functions of the bulk spacetime. The advantage of this “reduced phase space” approach is that only physical degrees of freedom
+remain. A standard example illustrating this difference is the Brown-Henneaux [4] versus
+the Feffermann-Graham [5, 6] definition of asymptotically anti-de Sitter spacetimes in
+three dimensions. // given that the 
+
+Supertranslations call for superrotations
+
+https://arxiv.org/pdf/1102.4632
+
+https://arxiv.org/pdf/1106.0213
+
+BMS charge algebra
+
+
+
+Asymptotic versus complete gauge fixations. Realizations
+There are basically two attitudes to the problem. On the one hand, one can fix the coordinate freedom only asymptotically in which case the asymptotic symmetry algebra appears
+as the quotient algebra of allowed, modulo an ideal of trivial, infinitesimal transformations. The advantage of this approach is that it is easier to show that specific solutions
+SUPERTRANSLATIONS AND SUPERROTATIONS 3
+
+
+to the equations of motion are admissible, i.e., asymptotically flat in the case of interest
+here. When one chooses to fix the coordinate freedom completely on the other hand,
+the asymptotic symmetry algebra appears as the residual “global” symmetry algebra after
+gauge fixing and no longer depends on arbitrary functions of the bulk spacetime. The advantage of this “reduced phase space” approach is that only physical degrees of freedom
+remain. A standard example illustrating this difference is the Brown-Henneaux [4] versus
+the Feffermann-Graham [5, 6] definition of asymptotically anti-de Sitter spacetimes in
+three dimensions.
+Recently in [7, 8], we have followed the latter approach in the asymptotically flat
+case by using a Bondi-Metzner-Sachs type of gauge in four dimensions [9, 10, 11] and a
+reasonable analog thereof in three. In particular, the asymptotic symmetry algebras to be
+discussed below have explicitly been shown to be the same whether one fixes the gauge
+completely or only asymptotically. Furthermore, as suggested by Penrose’s conformal
+approach to asymptotically flat spacetimes [12, 13, 14], we have considered classes of
+gauge fixations differing by a choice of the conformal factor for the degenerate metric on
+Scri and have investigated the behavior of the theory under changes of such gauges.
+From this point of view, the Newman-Unti (NU) approach to asymptotically flat
+spacetimes [15] corresponds to a different gauge choice for the radial coordinate. In
+view of its embedding in the widely used Newman-Penrose formalism [16] and its direct
+relevance in many applications, see e.g. the review article [17], it is worthwhile to show
+that the asymptotic symmetry algebra is unchanged and to provide explicit formulae for
+the realization of the algebra in this gauge. This has been done in [18].
+A novel result in our study concerns the realization of the asymptotic algebra not only
+on the boundary Scri but in the bulk gauge fixed spacetime by using a natural modification
+of the Lie bracket for vector fields that depend on the metric and is related to the theory of
+Lie algebroids [19]. Furthermore, this modified bracket is also needed for the realization
+on Scri in order to disentangle the gauge transformations from the residual global symmetries when allowing for changes of the conformal factor. We have also studied in detail
+how the symmetry algebra is realized on the arbitrary functions parametrizing solution
+space.
