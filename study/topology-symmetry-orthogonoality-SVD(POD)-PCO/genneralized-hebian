@@ -1,0 +1,143 @@
+#	Inspirado na teoria de aprendizagem blalbabl ( inserir pesquisa ), eh possivel fazer recall e recollection de informações e pedaços de conhecimentos gerados ao longo do tempo, de forma incremental, simulando o processo de reforço neural que ocorre na mente humana. 
+
+ Dados acomulados sobre determinado conhecimento da empresa, viram referencia (recall) e indice ( recollection & more info & more detail here ), tal que sirva de memoria referencia e semântica para colisão de contextos.
+Entende-se colisão de contextos como o processo de inserir termo científico, que permite que um documento lido por um agente, encontre sua respectiva origem de informação e alvo de lançamento.
+A very intrinsic framework for neural activations based on a bi-symmetric memory induction might enable linear orthogonality. And thus allow us to traverse the networks by "relevance of semi-truths and logical frameworks for advocating the activation" those advocates of logic and semi-truth would test-time remodel the neuronal formulation. Similar to memory formation on Hebbian and similar to neuronal clustering of synapse on response selectivity
+To summarize, you can think in hyperexponential functions that mimics the LTP process of memory consolidation in Hebbian.
+from their paper : The attention operator (Bahdanau et al., 2014; Vaswani et al., 2017), provides a valuable starting point to define a search space for model architectures, as it defines a prototype of what we call linear input-varying (LIV) operators (Massaroli & Poli, 2024). Attention, in its common formulation, can be expressed as a linear operator applied to the input, with the operator’s action determined by the input itself: -------------- The LIV framework decouples the (often) nonlinear and linear computation required to materialize the operator T(x) and apply it to obtain the outputs, y = T x. LIVs include and generalize a diverse array of computational units commonly used in model architectures, whose class is defined by the structure of the operator: attention variants, linear attention, convolutions, gated linear models and convolutions, gated recurrences with linear state transitions, state-space layers, and various novel forms of input-varying structured operators:
+here we are interested in both, gated convolution and diagonal memoryless activation
+
+both for gated synapses ( a semi clusterized data disposition that mimics a quasi space - pseudo euclidean vector ) withing diagonal ( pseudo euclidean ). That might evoque the . Theory of the Transformation of Co-ordinates and Times from a Stationary System to another System in Uniform Motion of Translation Relatively to the Former (Einstein)
+
+
+
+
+# 1. Considerações iniciais
+## 1.1 - Agnostico
+## 1.2 - Data Centralization
+
+# 2 - Proto AGI
+## 2.1 - Teoria Hebriana
+## 2.1 - Learning
+## 2.2 - Memory Consolidation
+## 2.2.2 - Multiple trace theory
+## 2.2.3 - Semantic Memory
+## 2.2.4 - Episodic Memory
+## 2.2.5 - Recall Memory 
+## 2.2.6 - Recoil Memory
+
+Este documento contempla a descrição, pesquisa e suplementação do módulo de Automação de processos e Unificação de Dados.
+	Ao longo da historia, sistemas de gestao de processo, recursos e coleta de dados se preocuparam em escalar de forma que, ao vender entao se decide o que e como sera criado. Para que de qualquer forma componha-se um sistema relacional. 
+          Sabe-se entao que boas praticas de desenvolvimento de software, de arquitetura de dados, de gestao de conhecimento passam despercebidos e nao recebem a devida importancia. Culminando num grupo de dados sujo, diversas “fontes de dados” em forma de oleo, aguardando o refinamento para extracao de indices, aperfeiçoamento ou automacao de processos, causando dor de cabeca para cientistas de dados, obrigando lancamento e categorizacao de inumeros documentos, tornando o processo (administrativo e produtivo) refem da forma que o sistema em questao tenha sido desenvolvido. O onus vai mais alem, como causalidade de um sistema instavel como esse, dados precisam de validacao constante, a informacao chega com ruidos, indicadores para tomada de decisão se tornam lentos, burocraticos, o custo de operação por especificidade de processo (cada indicador, processo por is, informacao necessaria, resultado esperado … ) altíssimo, e o processo lento e oneroso.
+
+
+
+PROTO- AGI
+
+Proto-AGI architecture is designed to emulate artificial general intelligence (AGI) through the integration of diverse components and knowledge frameworks. A recent manuscript introduces a novel and holistic architecture for the ProtoAGI system, conceptualized from a systems engineering standpoint. This architecture aims to enhance the system’s performance and adaptability by integrating Large Language Models (LLMs), task-specific solvers, and a comprehensive knowledge repository.
+The architecture includes several key components:
+Large Language Models (LLMs): These models form the backbone of the system, providing the ability to process complex user inputs and generate contextually relevant responses.
+Task-Specific Solvers: These solvers are designed to handle specific tasks, enabling the system to perform a wide range of functions beyond just language processing.
+Comprehensive Knowledge Repository: This repository stores and organizes information, allowing the system to learn from historical datasets and adapt its responses based on this knowledge.
+Additionally, the architecture emphasizes the importance of several features:
+Adaptive Learning: The system is designed to learn from historical data, improving its performance over time.
+Contextual Understanding: It processes intricate user inputs and generates responses that are contextually relevant.
+Interconnected Components: The system integrates various components to work together seamlessly, enhancing its overall functionality.
+A key aspect of this architecture is the interaction between LLMs, as shown in Fig. 2 from the manuscript. The Task Interpreter (TI) serves as the frontal lobe of ProtoAGI, where user inputs are deciphered. It employs a sophisticated Model of Experts (MoE) and LLM configuration to interpret user queries and tap into the Internal Knowledge Structure (IKS) for accurate responses.
+This approach not only signifies a pioneering venture into the realm of AGI system design but also lays the groundwork for subsequent advancements in this field.
+
+
+
+
+
+
+2 - Termos - melhor nomedepois
+2.1 - Teoria Hebriana
+2.2 - Aprendizagem
+2.3 - Conhecimento
+2.4 - Consolidacao de Memoria
+2.4.1 - Teoria de traçejado multiplo
+2.4.1.1 - Memoria Semantica
+2.4.1.2 - Memoria Episodica
+
+3 - padroes de desenvolvimento
+
+
+
+	A premissa da unificação de dados é usar inteligência artificial, ciência de dados, e teorias de aprendizagem humana ( similar a sua funcionalidade ) para gerar um esquema agêntico capaz de “induzir” Conhecimento, utilizando técnicas de de Consolidação de memória, através de um processo semi-empírico, semi-assistido, baseado no processo de traçado de memória (teoria de traços múltiplos), que sugere distinção entre memória semântica e episódica.
+Consideramos  semi-assistido uma emulação da memória semântica baseado na descrição do conhecimento esperado por humano ( implantador ou stakeholder do processo / documento - client ) e a episódica, a soma baseada em o absorvido (recollection, consolidation and recognition) e a interpretação do absorvido baseado na memoria semantica ( inducing declarative and procedural knowledge consolidation ).
+  Composto por um Large Action Model, a arquitetura agêntica (fig 5.1) permite o quebrantamento entre duas vertentes, processar e unificar dados ( inserir mais descrição sobre herbiana e pesquisa ) e automatizar processos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Interpreting a representation from Hebbian Theory
+
+
+We have all the possible targets as entities (as we had in the previous project). Which is usually called taxonomy, and responsible for constructing meaningful relations of knowledge inbetween objects / participants of a domain, or what we will call process_holder ( custos, estoque, faturamento … )
+
+Each entity will serve as a index ( find scientific basefor it. ) for sub indexes, thus recalling the exact context. The named entity recognition of the classifier can be both a named + contextual representation or some sort of way to traverse later on.
+
+We expect that describing like : My business is myself, I want to control where I do spent money, how much money I spent daily. I also want to know some form of class or category for the money spent.
+
+The entity can extrapolate a representation in the graph for a point in memory or the contextual meaning.
+Also actions could be clusterized as side-effects / side-meanings for a data declaration based on context.
+Refer to description of process and description of documents as supplementary ( associative ) memory, as result of the associative ( user described ), we will have the semantic memory ( the document meaning, its context and influence inside the latent space of the LAM ).
+
+Later on achieving explicit memory through recall + some technique of memory consolidation.
+
+If the bilinear structure is presented as G = (V,E) and GG = (VV, EE) thus, G[T] = GG[TT] and g[TT] = GG[T]
+
+Where T is the supplementary ( associative memory or lateral inhibitor? ) and TT is the knowledge, meaning or context ( semantic memory )
+Supplementary is further described as a description ( semantic and detailed ) of the entailed process.
+Entailed process is now considered a Tacit knowledge and is reference for lateral inhibition or tetanic stimulation, enlarging the context of the action or reducing it.
+
+you can't justify inteligence and knowledge without intuition and induction thus.
+Both actually represent residual 
+Both, so far represent self-inflected layer deturpation and self-inflicted layer regularization
+
+
+IE. BIAS 
+PT - BR : Voce nao pode justificar inteligência e conhecimento sem intuição e indução.
+Ambas formas representam acessos a pontos de memória que podem ser enviesados ( vies ), onde devido ao fator de recall e normalização ( clustering e formas q o cérebro funciona, nos dendritos )  recognition and consolidation.
+
+
+
+Knowledge - agent - synthetically suggested agent 
+Associative memory is further described as a description ( semantic and detailed ) of the entailed process.
+This process is now considered a Tacit knowledge and is reference for inhibition or stimulation, akin to mirror neurons
+
+To balance what is a tacit knowledge or not we will consider logical frameworks as the defacto decisor, applying types of logical frameworks per types of memory.
+
+The balancing and decision for recall will 
+
+The knowledge emulator will be a 2.1. Uni-typed representations
+
+https://www.cs.cmu.edu/~fp/papers/handbook01.pdf
+
+
+For either objective, it can be shown that the principal components are eigenvectors of the data's covariance matrix. Thus, the principal components are often computed by eigendecomposition of the data covariance matrix or singular value decomposition of the data matrix. PCA is the simplest of the true eigenvector-based multivariate analyses and is closely related to factor analysis. Factor analysis typically incorporates more domain-specific assumptions about the underlying structure and solves eigenvectors of a slightly different matrix. PCA is also related to canonical correlation analysis (CCA). CCA defines coordinate systems that optimally describe the cross-covariance between two datasets while PCA defines a new orthogonal coordinate system that optimally describes variance in a single dataset.[2][3][4][5] Robust and L1-norm-based variants of standard PCA have also been proposed.[6][7][8][5]
+
+
+https://en.m.wikipedia.org/wiki/Generalized_Hebbian_algorithm
+
+
+
+
+
+Stability and Principal Components Analysis
+edit
+[5]
+Oja's rule is the special case where .[6] One can think of the generalized Hebbian algorithm as iterating Oja's rule. 
+With Oja's rule,  is learned, and it has the same direction as the largest principal component vector is learned, with length determined by  for all , where the expectation is taken over all input-output pairs. In other words, the length of the vector  is such that we have an autoencoder, with the latent code , such that  is minimized.
+When , the first neuron in the hidden layer of the autoencoder still learns as described, since it is unaffected by the second neuron. So, after the first neuron and its vector  has converged, the second neuron is effectively running another Oja's rule on the modified input vectors, defined by , which we know is the input vector with the first principal component removed. Therefore, the second neuron learns to code for the second principal component. 
+By induction, this results in finding the top- principal components for arbitrary .

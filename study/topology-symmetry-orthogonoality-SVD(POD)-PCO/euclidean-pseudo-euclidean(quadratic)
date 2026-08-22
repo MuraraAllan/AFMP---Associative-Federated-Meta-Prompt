@@ -1,0 +1,34 @@
+hyperbolic singular value decomposition (HSVD), takes standard SVD  generalizes the standard SVD to spaces equipped with an indefinite inner product or bilinear form. Specifically, the property A⊤SA=SA⊤SA=S, where SS is a symmetric or skew-symmetric matrix, indicates a structure-preserving map in a pseudo-Euclidean space (hyperbolic geometry).
+To express the hyperbolic SVD mathematically, we first clarify the key elements:
+Definitions:
+
+Pseudo-Euclidean Inner Product (Hyperbolic Orthogonality): Given a vector space VV with a bilinear form ⟨u,v⟩S=u⊤Sv⟨u,v⟩S​=u⊤Sv, the orthogonality condition is defined relative to SS. Vectors u,v∈Vu,v∈V are SS-orthogonal if u⊤Sv=0u⊤Sv=0.
+For a matrix A∈Rm×nA∈Rm×n, the HSVD finds matrices UU, VV, and ΣΣ such as:
+A=UΣV⊤A=UΣV⊤
+Being: 
+ U⊤SU=SU⊤SU=S: UU preserves SS-orthogonality and V⊤TV=TV⊤TV=T: VV preserves TT-orthogonality while ΣΣ is a diagonal matrix containing the singular values.
+
+
+
+HSVD 
+
+Hyperbolic singular value decomposition in pseudo-euclidean with symmetric bilinear forms.
+HSVD  in a real matrix A∈Rm×nA∈Rm×n, with bilinear forms defined by symmetric matrices S∈Rm×mS∈Rm×m and T∈Rn×nT∈Rn×n, can be expressed as A=UΣV⊤A=UΣV⊤
+Given that :
+U∈Rm×mU∈Rm×m satisfies U⊤SU=SU⊤SU=S, V∈Rn×nV∈Rn×n satisfies V⊤TV=TV⊤TV=T, Σ∈Rm×nΣ∈Rm×n is a diagonal matrix.
+
+https://www.sciencedirect.com/science/article/pii/S0024379502003944
+
+An implicit Jacobi-like method for computing generalized hyperbolic SVD
+
+Properties:
+Hyperbolic Orthogonality of UU and VV: The columns of UU are SS-orthogonal: for any two columns ui,ujui​,uj​, ui⊤Suj=0ui⊤​Suj​=0 if i≠ji=j. Similarly, the columns of VV are TT-orthogonal.
+Singular Values: The diagonal elements of ΣΣ are generalized singular values of AA with respect to the bilinear forms defined by SS and TT.
+Structure Preservation: The decomposition satisfies the property A⊤SA=VΣ⊤TΣV⊤A⊤SA=VΣ⊤TΣV⊤.
+Intuition Behind the Decomposition:
+The HSVD extends the concept of SVD to pseudo-Euclidean spaces where the bilinear form ⟨x,y⟩S=x⊤Sy⟨x,y⟩S​=x⊤Sy determines orthogonality and magnitude. This is useful in applications like hyperbolic geometry, relativistic physics, or systems with indefinite metrics.
+Let me know if you'd like further clarification or examples!
+
+
+The quadratic form can be expressed in terms of the bilinear form: q(x) = ⟨x, x⟩.
+When ⟨x, y⟩ = 0, then x and y are orthogonal vectors of the pseudo-Euclidean space

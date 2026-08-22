@@ -1,0 +1,62 @@
+Generation of Random (Generalized) Orthogonal Matrices
+Ali Saraeb
+This paper presents an algorithmic method for generating random orthogonal matrices \(A\) that satisfy the property \(A^t S A = S\), where \(S\) is a fixed real invertible symmetric or skew-symmetric matrix. This method is significant as it generalizes the procedures for generating orthogonal matrices that fix a general fixed symmetric or skew-symmetric bilinear form. These include orthogonal matrices that fall to groups such as the symplectic group, Lorentz group, Poincaré group, and more generally the indefinite orthogonal group, to name a few. These classes of matrices play crucial roles in diverse fields such as theoretical physics, where they are used to describe symmetries and conservation laws, as well as in computational geometry, numerical analysis, and number theory, where they are integral to the study of quadratic forms and modular forms. The implementation of our algorithms can be accomplished using standard linear algebra librarie
+DOWN
+
+https://arxiv.org/abs/2406.18963
+[2406.18963] Generation of Random (Generalized) Orthogonal Matrices
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www2.ufjf.br/pgcc/wp-content/uploads/sites/181/2012/12/Nalon.pdf
+
+Instituto de Cieˆncias Exatas (ICE) – Universidade Federal de Juiz de Fora (UFJF) Rua Jose ́ Lourenc ̧o Kelmer, s/n, Sa ̃o Pedro – 36.036-900 – Juiz de Fora – MG – Brasil
+          roberto.nalon@ice.ufjf.br, saul.leite@ufjf.edu.br
+                      raulfonseca.neto@ufjf.edu.br
+
+DOWN 
+https://assets-eu.researchsquare.com/files/rs-4766468/v1_covered_3e3acf31-dcad-4d09-bfc4-5f60ee08cffa.pdf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nossa como eh ruim digitar nessa mesa assim seria o correto 
+Generation of Random (Generalized) Orthogonal Matrices
+Ali Saraeb June 2024
+Abstract
+This paper presents an algorithmic method for generating random orthogonal matrices A that satisfy the property AtSA = S, where S is a fixed real invertible symmetric or skew- symmetric matrix. This method is significant as it generalizes the procedures for generating orthogonal matrices that fix a general fixed symmetric or skew-symmetric bilinear form. These include orthogonal matrices that belong to groups such as the symplectic group, Lorentz group, Poincare ́ group, and more generally the indefinite orthogonal group, to name a few. These classes of matrices play crucial roles in diverse fields such as theoretical physics, where they are used to describe symmetries and conservation laws, as well as in computational geometry, numerical analysis, and number theory, where they are integral to the study of quadratic forms and modular forms. The implementation of our algorithms can be accomplished using standard linear algebra libraries.
+
+DOWN
+
+https://assets-eu.researchsquare.com/files/rs-4766468/v1_covered_3e3acf31-dcad-4d09-bfc4-5f60ee08cffa.pdf
