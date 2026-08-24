@@ -41,6 +41,7 @@ Derived Properties:
 
 Transitivity: If there is a path from ( u ) to ( v ) and from ( v ) to ( w ), then there is a path from ( u ) to ( w ).
 Partial Ordering: The vertices can be partially ordered based on reachability.
+
 4. Properties of DAGs
 Topological Ordering: The vertices of a DAG can be arranged in a linear sequence such that for every directed edge ( (u, v) ), vertex ( u ) comes before ( v ) in the sequence.
 
@@ -66,6 +67,7 @@ Causal Inference: Modeling cause-effect relationships.
 Version Control Systems:
 
 Git Repositories: Commits form a DAG where merges and branches are represented.
+
 6. Working with DAGs
 Algorithms:
 
@@ -90,6 +92,7 @@ Irreflexive: No vertex has an edge to itself, ( a \nrightarrow a ).
 Category Theory Perspective:
 
 In category theory, a DAG can be viewed as a category where objects are vertices, and morphisms are directed paths.
+
 8. Example
 Consider a DAG representing course prerequisites:
 
