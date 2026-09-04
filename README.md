@@ -1,9 +1,17 @@
+For those with genuine interest in "Alternative methods to pioneer prompt engineering" - I recommend :
+(WIP on codebridge, an meta-Q agent implemented over gemma 4 and versions 3 of local Chrome AI)[https://github.com/MuraraAllan/Associative-Federated-Meta-Prompt/blob/main/examples/Self%20Improving%20Meta-Q/borel_canteli.txt] 
+(Quadratic logic gate - the theory behind codebridge meta reasoning at my meta-q) [https://github.com/MuraraAllan/Associative-Federated-Meta-Prompt/blob/main/examples/Self%20Improving%20Meta-Q/QUADRATIC_LOGICAL_GATE]
+(An Working grounding for starting with meta prompt) [https://github.com/MuraraAllan/Associative-Federated-Meta-Prompt/blob/main/examples/consume_meta_orchestrator]
+(Scaping the symmetry and rebuilding It is particularly interesting, but empirically validated, Part of "Geometry and Induced Geometrics in LLMS", a thir article for explaining what I try to do in llms) https://github.com/MuraraAllan/Associative-Federated-Meta-Prompt/blob/main/draft%20AMP.pdf
+
+This is the summarization of the papers on study, 
+
 ##Associative-Federated-Meta-Prompt
 Articles that help composing this research :
 
 From Rank-1 Operators to Context Topology: The Geometric Mechanics of Attention, Position, and Superposition in ML
-Temporality & Atemporality - Causal Masking, Signaling, Transiency and other inductive emmerging principles
-https://github.com/MuraraAllan/Articles---Rank1-Operators-and-Topology-Temporality-Atemporality-in-LLMS
+Temporality & Atemporality - Causal Masking, Signaling, Transiency and other inductive emmerging principles 
+THERE IS NOTHING HERE --- Total WIP https://github.com/MuraraAllan/Articles---Rank1-Operators-and-Topology-Temporality-Atemporality-in-LLMS
 
 
 
