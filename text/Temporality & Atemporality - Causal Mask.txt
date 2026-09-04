@@ -1,0 +1,362 @@
+Temporality & Atemporality - Causal Masking, Signaling, Transiency and other inductive emmerging principles
+unitarity and causality
+
+Work from here and extend towards meeting in the middle for AFMP draft.
+Also, categorize what and when, for the Wilsonian 
+
+
+if the euclidean is finite then the lorezium is not finite. Because the weak rotation introduces infinity.
+wilson coefficients
+https://arxiv.org/pdf/2502.12290
+Asymptotic safety, quantum gravity, and the
+swampland: a conceptual assessment
+
+ian)
+quantum field theory (QFT) has proven to be a spectacularly successful framework. The
+“rules of the game” involve very few building blocks, in the form of quantum fields and their
+interactions, constrained by consistency conditions such as unitarity, causality, symmetries,
+gauge redundancies and anomaly cancellation. As a result, at least at weak coupling, the
+low-energy description of physics is qualitatively universal, involving Yang-Mills gauge fields,
+fermions and scalar fields. The detailed structure (gauge group, representations, values of
+couplings, etc.) remains unfixed up to the above consistency conditions.
+
+
+
+
+Asymptotically safe
+quantum gravity (ASQG) [3–20] attempts to answer this question building on an interacting
+ultraviolet (UV) fixed point that makes the theory non-perturbatively renormalizable [21–62].
+If the resulting UV critical surface has a finite dimension, physical quantities are predicted in
+terms of finitely many free parameters
+
+
+
+At low energies,
+QG makes sense as an effective field theory (EFT), and from this starting point the problem
+of QG can be phrased as the search for a UV completion of such EFTs. 
+
+
+
+ In this spirit, within the scope
+of the present paper, we shall dub “quantum gravity” any (predictive) quantum theory which
+reduces to an EFT involving General Relativity (GR) at low energies and which is complete,
+namely it does not cease to be valid in any physical regime
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Let us provide a particularly
+sharp example of how swampland constraints can preclude QFTs from having a gravitational
+completion. The cancellation of gauge and gravitational anomalies of the traditional type is
+7This is counting inequivalent EFTs at a fixed cutoff. For instance, if an EFT has a space of vacua
+parameterized by moduli (expectation values of gauge-invariant scalar operators), one would count such a
+moduli space as a single EFT insofar as the cutoff remains bounded.
+8For example, at fixed number of infinitely extended dimensions.
+9For example, varying the IR value of the fine-structure constant in quantum electrodynamics.
+– 7 –
+understood as a consistency requirement on (possibly gravitational) EFTs. Introducing QG,
+one is led to consider more general “Dai-Freed” anomalies [172],10 which arise from spacetime
+topology change which cannot be ascribed to effective quantum fields (including graviton
+fluctuations). Including these, novel anomalies can appear. The standard model is remarkably
+devoid of them [172, 174], consistently with the existence of a gravitational completion.
+
+
+
+// on cancellation of gauge and gravitational anomalies, 
+
+
+
+https://arxiv.org/html/1808.00009v3#S4
+
+Bordism groups for 
+ℤ
+k
+
+
+
+Alternate generators for 
+Ω
+5 spin bz logic
+Here, we present an alternate set of generators fo
+
+
+
+From Rank-1 Operators to Context Topology: The Geometric Mechanics of Attention, Position, and Superposition in ML
+// regulate early layers, through signaling.
+
+// regulated early layers = skip part of the proccessing, hit straight answers. Distill or get strong context.
+
+// distill or get strong context, use causal masking to proc more early layers (multiple landscapes recreated through induction)
+//more early layers = temporal causality. Justifies causal masking, as emmergent property of early mechanisms (hope)
+
+// temporal causality + atemporal composition (article) - creating artifacts that scale atemporaly and scape Temporality.
+
+// Hit atemporal landscape, start shuffling and deciding based on atemporal factors = behaviour + induction emmergence - extends with content
+about behaviour and logical decision.
+
+https://arxiv.org/pdf/2111.11392
+
+https://arxiv.org/search/hep-th?searchtype=author&query=Pasterski,+S
+https://arxiv.org/search/cs?searchtype=author&query=Qiang,+W
+https://arxiv.org/search/?searchtype=author&query=Guo%2C+P
+https://arxiv.org/pdf/2606.13889
+https://arxiv.org/pdf/2508.12881
+https://arxiv.org/pdf/2412.00812
+
+https://arxiv.org/pdf/2512.02825
+Memory Correlators and Ward Identities in the 'in-in' Formalism
+3.2.2 Soft Charge Two-Point Function to Vertex Insertions
+
+4 Memory Correlators
+https://arxiv.org/pdf/2512.02825
+
+https://arxiv.org/search/hep-th?searchtype=author&query=Narayanan,+S+A
+5 Vacuum structure and conformal manifold
+https://arxiv.org/pdf/2511.20807
+
+https://arxiv.org/pdf/2607.00864
+Soft Algebras via Bulk Double Soft Limits
+https://arxiv.org/pdf/2511.20807
+https://arxiv.org/pdf/2607.00864
+
+https://arxiv.org/pdf/2604.19866
+Asymptotic charges as detectors and the memory effect in massive QED and perturbative quantum gravity
+
+https://arxiv.org/abs/2606.13889
+https://arxiv.org/pdf/2608.15127
+
+brane region
+
+
+https://arxiv.org/abs/2604.22612
+https://arxiv.org/pdf/2411.10527
+
+Light-ray operators and the BMS algebra
+
+
+https://arxiv.org/pdf/math/0205084
+
+THE ETA INVARIANT AND THE REAL CONNECTIVE
+K-THEORY OF THE CLASSIFYING SPACE FOR QUATERNION
+GROUPS
+
+
+Riemannian geometry
+pp. 1 - 1
+Chapter 1. Affine differential geometryChapter PDF
+pp. 1 - 44
+Chapter 2. Riemannian curvatureChapter PDF
+pp. 45 - 95
+
+
+https://arxiv.org/pdf/2012.00432
+ON THE HOMOTOPY TYPE OF THE SPACE OF METRICS OF
+POSITIVE SCALAR CURVATURE
+
+SPLITTING CERTAIN M Spin-MODULE SPECTRA
+
+https://www.sciencedirect.com/science/article/pii/004093839490040X
+
+https://math.berkeley.edu/~jawolf/publications.pdf/paper_134.pdf
+
+CAYLEY TRANSFORMS AND ORBIT
+STRUCTURE IN COMPLEX FLAG MANIFOLDS 
+
+Asymptotic safety, string theory and the weak gravity conjecture
+
+
+Zeta Functions and Their Asmptotic
+Expansions for Compact Symmetric Spaces of
+Rank One
+https://math.berkeley.edu/~jawolf/publications.pdf/paper_071.pdf
+
+
+https://archive.org/details/spacesofconstant0000jose/page/n18/mode/1up
+
+Spaces of Constant Curvature
+By Joseph Albert Wolf
+
+
+dai-free
+https://arxiv.org/html/1808.00009v3#S1
+
+
+
+https://math.berkeley.edu/~jawolf/publications.pdf/paper_070.pdf
+ZETA FUNCTIONS AND THEIR ASYMPTOTIC EXPANSIONS
+FOR COMPACT LOCALLY SYMMETRIC SPACES
+OF NEGATIVE CURVATURE
+
+SIMPLY CONNECTED MANIFOLDS
+F POSITIVE SCALAR CURVATURE
+STEPHAN STOLZ 
+https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-23/issue-2/Simply-connected-manifolds-of-positive-scalar-curvature/bams/1183555893.pdf
+
+graphs
+
+Representation, inference and learning with graphical models; directed and undirected graphical models; exact inference; approximate inference using deterministic optimization based methods, stochastic sampling based methods; learning with complete and partial observations.
+
+Computer Science (Sci) : Machine learning with graph-structured data. Introductions to spectral graph theory, graph signal processing, graph convolutions, graph neural networks, and the logic of graphs.
+
+
+
+
+
+https://openreview.net/attachment?id=hMTCuqjCW8&name=pdf
+
+Attention with Routed-Memory for Learnable Sparse Control
+
+https://openreview.net/attachment?id=6zbO21ySVJ&name=pdf
+
+https://arxiv.org/pdf/2512.02825
+This can be verified in the context of S-matrix elements which we outline below.
+The first thing to note is that this Ward identity is none other than an antipodal
+matching of the Bondi mass, mB, across spatial infinity. However, to evaluate (2.3)
+we need to recast the Bondi mass in terms of the radiative data corresponding to the
+asymptotic states. The uu component of Einstein’s equations at large r tells us that
+
+2.1 Soft Theorems as Ward Identities
+
+Soft theorems in four-dimensional (4D) quantum field theory tell us how scattering amplitudes
+behave when we take one or more of the external particles to be energetically soft.[1] 
+
+https://arxiv.org/pdf/0909.2617
+
+
+For a little over a decade, the “celestial holography” program has used these IR properties
+in gauge and gravity theories to understand aspects of a co-dimension two “celestial” conformal
+field theory (CFT) that lives on the celestial sphere at the boundary of spacetime. See [3, 4] and
+references therein. One of the primary goals of this program, given what we have learned about
+celestial CFTs thus far, is to use two-dimensional (2D) CFT techniques to discern the implications
+for a bulk theory of quantum gravity.[5] This particular goal has proven to be a rather difficult
+task but to date there has been a lot of progress using a variety of approaches, including twistors
+in the context of self-dual bulk theories [6], constructing explicit dualities between sectors of bulk
+1
+and boundary theories [7, 8, 9], understanding the space of all possible celestial CFTs [10, 11, 12]
+and much more.
+This duality relies on the fact that Mellin transforms of bulk scattering amplitudes behave
+like conformal correlation functions where the energy label ω has been replaced by a conformal
+dimension ∆. These are often referred to as “celestial amplitudes”.[5, 13, 3] Via this mapping,
+bulk soft theorems can be recast as insertions of associated soft operators in the celestial CFT
+and these are referred to as conformally soft theorems on the boundary.[14, 15] One can derive the
+conformally soft theorems by Mellin transforming the bulk amplitude and then carefully taking
+the conformal dimension of one of the operators to correspond to the particular order in the soft
+expansion
+
+
+
+https://transformer-circuits.pub/2026/interference_effectiveness_helpfulness/index.html
+https://transformer-circuits.pub/2026/interference_effectiveness_helpfulness/index.html#intro
+https://direct.mit.edu/neco/article-abstract/10/2/251/6143/Natural-Gradient-Works-Efficiently-in-Learning?redirectedFrom=fulltext
+https://transformer-circuits.pub/2025/interference-weights/index.html
+https://transformer-circuits.pub/2023/monosemantic-features/index.html
+https://transformer-circuits.pub/2022/toy_model/index.html
+https://transformer-circuits.pub/2021/framework/index.html#working-with-low-rank-matrices
+https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html
+
+
+--- https://www.youtube.com/watch?v=8wYNsoycM1U
+
+A Mathematical Framework for Transformer Circuits
+A Mathematical Framework for Transformer Circuits
+
+
+ositivity bounds and WGC beyond Wilson coefficients: flowing conditions
+
+Hilbert-Schmidt
+
+
+https://github.com/cloudflare/workers-sdk/tree/main/packages/kv-asset-handler#cachecontrol
+
+10:04 - alessia platanial asymptotic safety landscape - eft causality
+
+
+
+understood as a consistency requirement on (possibly gravitational) EFTs. Introducing QG,
+one is led to consider more general “Dai-Freed” anomalies [172],10 which arise from spacetime
+topology change which cannot be ascribed to effective quantum fields (including graviton
+fluctuations). Including these, novel anomalies can appear. The standard model is remarkably
+devoid of them [172, 174], consistently with the existence of a gravitational completio
+
+
+
+Asymptotic safety and the swampland — In the remainder of the paper, we will
+consider some basic ideas laying the foundations of the swampland program. While part
+of this line of research is inspired by string theory and patterns found therein, we stress
+once more that we focus on purely bottom-up arguments, and assume that these identify
+the universal landscape [106]. The spirit of this restriction is to reach conclusions that are
+as robust as possible when applying these ideas to ASQG and other QFT-based approaches.
+These ideas were pioneered in [82], where some swampland conditions were studied on the toy
+model landscape of one-loop quadratic gravity
+
+
+ These investigations point to a non-trivial intersection
+between the asymptotic safety landscape and the space identified by some swampland bounds,
+namely the weak gravity conjecture [78, 83–87], the de Sitter conjecture [122, 123], and the
+trans-Plancki
+
+
+
+THE ETA INVARIANT AND THE REAL CONNECTIVE
+K-THEORY OF THE CLASSIFYING SPACE FOR QUATERNION
+GROUPS
+
+
+
+https://arxiv.org/pdf/math/0205084
+
+LHC EFT WG Note:
+Precision matching of microscopic physics to the Standard
+Model Effective Field Theory (SMEFT)
+
+
+
+https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.7.023152
+
+Fractionalized altermagnets: From neighboring and altermagnetic spin liquids to spin-symmetric band splitting
+
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12894586/
+
+https://cds.cern.ch/record/2842082/files/2212.02905.pdf
+
+
+
+Unearthing the intersections: positivity bounds,
+weak gravity conjecture, and asymptotic safety
+landscapes from photon-graviton flows
+
+https://arxiv.org/pdf/2405.08860
+
+
+
+
+Symmetry-driven spin splitting in altermagnets: an angle-resolved photoemission spectroscopy perspective
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12894586/
+
+
+
+
+According to the Gao-Wald theorem in General Relativity, a signal traveling through the bulk of AdS must always take longer than a signal traveling along the boundary. If the boundary violates the ANEC, the bulk geometry is forced to compensate by violating the Null Energy Condition (NEC).
+
+When the bulk NEC fails:
+
+Gravity becomes locally repulsive.
+
+The spacetime can form traversable wormholes or Closed Timelike Curves (CTCs).
+
+Spacetime fragments into patches where the chronological past and future are undefined relative to the rest of the universe.
